@@ -10,70 +10,70 @@ import ContactForm from '@/components/ContactForm';
 import Accordion from '@/components/Accordion';
 import { Toaster } from "@/components/ui/sonner";
 import TestimonialSlider from '@/components/TestimonialSlider';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/utils/translations';
 
 const Index = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+  
   return (
     <div className="min-h-screen bg-white">
       <Toaster />
       <Navbar />
       
-{/* Hero Section */}
-<section className="bg-white">
-  <div className="container mx-auto px-4">
-    <div className="flex flex-col-reverse lg:flex-row items-center min-h-[40vh]">
-      
-      {/* Text Content */}
-      <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 lg:pl-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
-          Right person, right seat.<br />
-          <span className="text-compella-teal">Promised.</span>
-        </h1>
-        <p className="text-lg mb-8 text-gray-700 animate-fade-in-up">
-          The Compella Assessment provides deep insights into a candidate's strengths and skills for development. This approach is specifically testing for the role you're recruiting for, ensuring that you're hiring the right person for your organization's needs and goals.
-        </p>
-        <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          <a href="#contact" className="btn-primary">
-            Get Started
-          </a>
+      {/* Hero Section */}
+      <section className="bg-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col-reverse lg:flex-row items-center min-h-[40vh]">
+            
+            {/* Text Content */}
+            <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 lg:pl-12">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
+                {t.heroTitle}<br />
+                <span className="text-compella-teal">{t.heroTitleHighlight}</span>
+              </h1>
+              <p className="text-lg mb-8 text-gray-700 animate-fade-in-up">
+                {t.heroDescription}
+              </p>
+              <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+                <a href="#contact" className="btn-primary">
+                  {t.getStarted}
+                </a>
+              </div>
+            </div>
+
+            {/* Image - desktop only */}
+            <div className="hidden lg:flex w-full lg:w-1/2 justify-end items-center pr-0">
+              <div className="w-full max-w-[500px] aspect-[4/5] overflow-hidden">
+                <img 
+                  src="/lovable-uploads/two plants.png" 
+                  alt="two plants"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      {/* Image - desktop only */}
-      <div className="hidden lg:flex w-full lg:w-1/2 justify-end items-center pr-0">
-        <div className="w-full max-w-[500px] aspect-[4/5] overflow-hidden">
-          <img 
-            src="/lovable-uploads/two plants.png" 
-            alt="two plants"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
+      </section>
       
       {/* Features Section */}
       <section id="services" className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard 
-              title="Assessing what matters. With accuracy."
-              description="Our assessments are designed to identify what truly matters for each unique position in your team. They're built on decades of leadership research and expertise."
+              title={t.feature1Title}
+              description={t.feature1Description}
               icon={<Target size={48} />}
             />
             <FeatureCard 
-              title="Diagnostic reports. Actionable recommendations."
-              description="Receive clear, insightful reports that highlight candidate strengths and areas for growth. Each report includes specific, actionable recommendations."
+              title={t.feature2Title}
+              description={t.feature2Description}
               icon={<FileBarChart size={48} />}
             />
             <FeatureCard 
-              title="Efficient Processes. Competitive service."
-              description="Save time with streamlined assessment processes. Rapid turnaround times ensure you can make hiring decisions quickly without compromising quality."
+              title={t.feature3Title}
+              description={t.feature3Description}
               icon={<BarChart3 size={48} />}
             />
           </div>
@@ -91,7 +91,7 @@ const Index = () => {
       <section id="how-it-works" className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">How Our Leadership Assessment Works</h2>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.howItWorksTitle}</h2>
             <div className="w-20 h-1 bg-compella-teal mx-auto"></div>
           </div>
           
@@ -99,23 +99,23 @@ const Index = () => {
             <div className="space-y-8">
               <ProcessStep 
                 number={1}
-                title="Understanding your needs"
-                description="We take the time to fully understand your organization's culture, values, and the specific requirements of the leadership role you're filling."
+                title={t.process1Title}
+                description={t.process1Description}
               />
               <ProcessStep 
                 number={2}
-                title="Adapting your competency model"
-                description="Based on your input and our expertise, we customize our assessment approach to evaluate the specific competencies that matter most for success in your context."
+                title={t.process2Title}
+                description={t.process2Description}
               />
               <ProcessStep 
                 number={3}
-                title="Assessment Center Day"
-                description="Your candidates participate in carefully designed scenarios and exercises that reveal their natural leadership tendencies, strengths and development areas."
+                title={t.process3Title}
+                description={t.process3Description}
               />
               <ProcessStep 
                 number={4}
-                title="Results and Development Plan"
-                description="We provide comprehensive reports with clear insights and practical recommendations for both selection decisions and future development."
+                title={t.process4Title}
+                description={t.process4Description}
               />
             </div>
             <div className="flex items-center justify-center">
@@ -133,8 +133,8 @@ const Index = () => {
       <section id="team" className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">Our Team</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">We are experts in people development and organizational development, and we're here to help you build extraordinary teams.</p>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.teamTitle}</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">{t.teamDescription}</p>
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -170,9 +170,9 @@ const Index = () => {
       <section id="development" className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="mb-10 max-w-3xl">
-            <div className="text-compella-teal mb-2 font-medium">Our Development Services</div>
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">Inside-out development</h2>
-            <p className="text-gray-600">In addition to assessments for selecting perfect candidates, we work to grow your high-potential employees and leaders into outstanding performers.</p>
+            <div className="text-compella-teal mb-2 font-medium">{t.developmentSectionTitle}</div>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.developmentTitle}</h2>
+            <p className="text-gray-600">{t.developmentDescription}</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -183,23 +183,23 @@ const Index = () => {
                     <div className="w-10 h-10 rounded-full bg-compella-pink flex items-center justify-center mr-3">
                       <Sparkles size={20} className="text-compella-teal" />
                     </div>
-                    <h3 className="font-semibold">Development Center</h3>
+                    <h3 className="font-semibold">{t.developmentCenter}</h3>
                   </div>
-                  <p className="text-sm text-gray-600">Structured programs designed to identify and enhance leadership capabilities of your existing talent pool.</p>
+                  <p className="text-sm text-gray-600">{t.developmentCenterDescription}</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
                   <div className="flex items-center mb-4">
                     <div className="w-10 h-10 rounded-full bg-compella-pink flex items-center justify-center mr-3">
                       <Users size={20} className="text-compella-teal" />
                     </div>
-                    <h3 className="font-semibold">Team Development</h3>
+                    <h3 className="font-semibold">{t.teamDevelopment}</h3>
                   </div>
-                  <p className="text-sm text-gray-600">Custom workshops and ongoing support to strengthen team dynamics and collaborative performance.</p>
+                  <p className="text-sm text-gray-600">{t.teamDevelopmentDescription}</p>
                 </div>
               </div>
               <div className="mt-8">
                 <a href="#contact" className="inline-flex items-center text-compella-teal hover:underline">
-                  Contact us <ChevronRight size={16} className="ml-1" />
+                  {t.contactUs} <ChevronRight size={16} className="ml-1" />
                 </a>
               </div>
             </div>
@@ -219,32 +219,32 @@ const Index = () => {
       <section id="faq" className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">Frequently Asked Questions</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Everything you need to know about our leadership assessment process.</p>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.faqTitle}</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">{t.faqDescription}</p>
           </div>
           
           <div className="max-w-3xl mx-auto">
             <Accordion 
               items={[
                 {
-                  question: "How long does an assessment typically take?",
-                  answer: "Our standard assessment process takes one full day for the assessment center activities. The preparation and report delivery typically add another week to the complete process. We can also offer accelerated timelines when needed."
+                  question: t.faq1Question,
+                  answer: t.faq1Answer
                 },
                 {
-                  question: "What's included in the cost?",
-                  answer: "Our assessment packages include the pre-assessment consultation, all assessment materials and exercises, facilitator time, comprehensive reports with detailed analysis, and a follow-up consultation to discuss results and recommendations."
+                  question: t.faq2Question,
+                  answer: t.faq2Answer
                 },
                 {
-                  question: "How many candidates can you assess at once?",
-                  answer: "We can assess up to 6 candidates in a single assessment center day. For larger groups, we can arrange multiple sessions or customize a more efficient process depending on your specific needs."
+                  question: t.faq3Question,
+                  answer: t.faq3Answer
                 },
                 {
-                  question: "Do you offer virtual assessments?",
-                  answer: "Yes! We've developed robust virtual assessment methodologies that maintain the quality and depth of insights while accommodating remote participants. Our virtual assessments use secure platforms and are designed to evaluate the same competencies as our in-person centers."
+                  question: t.faq4Question,
+                  answer: t.faq4Answer
                 },
                 {
-                  question: "Can assessments be customized for our industry?",
-                  answer: "Absolutely. We specialize in tailoring our assessments to specific industries and organizational contexts. We'll work closely with you to understand your industry challenges and customize scenarios that reflect real situations your leaders will face."
+                  question: t.faq5Question,
+                  answer: t.faq5Answer
                 }
               ]}
             />
@@ -256,8 +256,8 @@ const Index = () => {
       <section id="contact" className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-compella-gray mb-4">Get in touch</h2>
-            <p className="text-gray-600 max-w-xl mx-auto">We'll get back in touch within 24 hours!</p>
+            <h2 className="text-3xl font-bold text-compella-gray mb-4">{t.contactTitle}</h2>
+            <p className="text-gray-600 max-w-xl mx-auto">{t.contactDescription}</p>
           </div>
           
           <div className="max-w-md mx-auto">
@@ -285,7 +285,7 @@ const Index = () => {
             </div>
           </div>
           <div className="text-center text-sm text-gray-400">
-            © {new Date().getFullYear()} Compella. All rights reserved.
+            © {new Date().getFullYear()} Compella. {t.rights}
           </div>
         </div>
       </footer>

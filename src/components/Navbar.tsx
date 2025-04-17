@@ -1,11 +1,16 @@
 
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/utils/translations';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const { language } = useLanguage();
+  const t = translations[language];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,25 +40,29 @@ const Navbar = () => {
         
         <div className="hidden md:flex space-x-8">
           <a href="#services" className="text-compella-gray hover:text-compella-teal transition-colors duration-200">
-            Services
+            {t.services}
           </a>
           <a href="#how-it-works" className="text-compella-gray hover:text-compella-teal transition-colors duration-200">
-            How it Works
+            {t.howItWorks}
           </a>
           <a href="#team" className="text-compella-gray hover:text-compella-teal transition-colors duration-200">
-            Team
+            {t.team}
           </a>
           <a href="#development" className="text-compella-gray hover:text-compella-teal transition-colors duration-200">
-            Development
+            {t.development}
           </a>
           <a href="#faq" className="text-compella-gray hover:text-compella-teal transition-colors duration-200">
-            FAQ
+            {t.faq}
           </a>
         </div>
-        
-        <a href="#contact" className="hidden md:block btn-primary">
-          Get in Touch
-        </a>
+
+        <div className="hidden md:flex items-center space-x-4">
+          <LanguageSwitcher />
+          
+          <a href="#contact" className="btn-primary">
+            {t.getInTouch}
+          </a>
+        </div>
         
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-compella-gray">
           {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -69,42 +78,47 @@ const Navbar = () => {
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              Services
+              {t.services}
             </a>
             <a 
               href="#how-it-works" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              How it Works
+              {t.howItWorks}
             </a>
             <a 
               href="#team" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              Team
+              {t.team}
             </a>
             <a 
               href="#development" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              Development
+              {t.development}
             </a>
             <a 
               href="#faq" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
-              FAQ
+              {t.faq}
             </a>
+            
+            <div className="flex items-center pt-2">
+              <LanguageSwitcher />
+            </div>
+            
             <a 
               href="#contact" 
               className="btn-primary text-center"
               onClick={() => setIsOpen(false)}
             >
-              Get in Touch
+              {t.getInTouch}
             </a>
           </div>
         </div>

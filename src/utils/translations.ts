@@ -104,27 +104,30 @@ export const translations = {
     // Team Section
     teamTitle: "Who we are",
     teamDescription: "We are experts in people development and organizational development, helping you build extraordinary teams.",
-    
-    // Team members
     teamPosition1: "Visionary & Senior Consultant",
-    teamBio1: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
+    teamBio1: "Marcel is an experienced consultant and coach who is passionate about unlocking the full potential of people and organizations.",
     teamPosition2: "Integrator & Senior Consultant",
-    teamBio2: "Max ist Unternehmer und Coach, der leidenschaftlich daran arbeitet, das wahre Potenzial von Menschen und Organisationen zu entfalten.",
+    teamBio2: "Max is an entrepreneur and coach who passionately works to unlock the true potential of people and organizations.",
     teamPosition3: "Product, Marketing & Consultant",
-    teamBio3: "Tobi ist Trainer, Innovator und Netzwerker und treibt die Entwicklung der Coaching Tools und das Marketing von Compella voran.",
+    teamBio3: "Tobi is a trainer, innovator and networker driving the development of coaching tools and marketing at Compella.",
     teamPosition4: "Sales & Client Success",
-    teamBio4: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
+    teamBio4: "Susi embodies care and quality, ensuring clients are well taken care of from first contact to follow-up thanks to years of sales experience.",
     
-    // Development Section
-    developmentSectionTitle: "Our Development Services",
-    developmentTitle: "Inside-out development",
-    developmentDescription: "In addition to assessments for selecting perfect candidates, we work to grow your high-potential employees and leaders into outstanding performers.",
-    developmentCenter: "Development Center",
-    developmentCenterDescription: "Structured programs designed to identify and enhance leadership capabilities of your existing talent pool.",
-    teamDevelopment: "Team Development",
-    teamDevelopmentDescription: "Custom workshops and ongoing support to strengthen team dynamics and collaborative performance.",
-    contactUs: "Contact us",
+    // Contact Form
+    fullName: "Full Name",
+    jobTitle: "Job Title",
+    company: "Company",
+    email: "Email Address",
+    phone: "Phone Number",
+    message: "Message",
+    sendMessage: "Send Message",
+    sending: "Sending...",
+    getInTouch: "Get in Touch",
     
+    // Navigation
+    team: "Team",
+    faq: "FAQ",
+
     // FAQ Section
     faqTitle: "Frequently Asked Questions",
     faqDescription: "Everything you need to know about our leadership assessment process.",
@@ -265,8 +268,6 @@ export const translations = {
     // Team Section
     teamTitle: "Wer wir sind",
     teamDescription: "Wir sind Experten für Personalentwicklung, Mitarbeiterführung und Organisationsentwicklung.",
-    
-    // Team members - keeping German for both languages as requested
     teamPosition1: "Visionary & Senior Consultant",
     teamBio1: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
     teamPosition2: "Integrator & Senior Consultant",
@@ -276,16 +277,21 @@ export const translations = {
     teamPosition4: "Sales & Client Success",
     teamBio4: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
     
-    // Development Section
-    developmentSectionTitle: "Ihr Führungskräfte-Entwicklung bei uns",
-    developmentTitle: "Inside-out development",
-    developmentDescription: "Zusätzlich zu Assessments für die Auswahl von Kandidaten arbeiten wir daran, Ihre High-Potential-Mitarbeiter und Führungskräfte zu herausragenden Performern zu entwickeln.",
-    developmentCenter: "Development Center",
-    developmentCenterDescription: "Strukturierte Programme zur Identifizierung und Förderung der Führungsfähigkeiten Ihrer bestehenden Talentpool.",
-    teamDevelopment: "Team Entwicklung",
-    teamDevelopmentDescription: "Maßgeschneiderte Workshops und kontinuierliche Unterstützung zur Stärkung der Teamdynamik und der kollaborativen Leistung.",
-    contactUs: "Kontaktiere uns",
+    // Contact Form
+    fullName: "Vollständiger Name",
+    jobTitle: "Berufsbezeichnung",
+    company: "Unternehmen",
+    email: "E-Mail-Adresse",
+    phone: "Telefonnummer",
+    message: "Nachricht",
+    sendMessage: "Nachricht senden",
+    sending: "Wird gesendet...",
+    getInTouch: "Kontakt aufnehmen",
     
+    // Navigation
+    team: "Team",
+    faq: "FAQ",
+
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",
     faqDescription: "Hier findest du die Antworten auf häufig gestellte Fragen über unseren Leadership-Assessment-Prozess.",
@@ -298,7 +304,7 @@ export const translations = {
     faq4Question: "Bietet Ihr virtuelle Assessments an?",
     faq4Answer: "Ja! Wir haben robuste virtuelle Bewertungsmethoden entwickelt, die die Qualität und Tiefe der Einblicke beibehalten und gleichzeitig Remote-Teilnehmer berücksichtigen. Unsere virtuellen Assessments verwenden sichere Plattformen und sind so konzipiert, dass sie die gleichen Kompetenzen bewerten wie unsere persönlichen Zentren.",
     faq5Question: "Können Assessments an unsere Branche angepasst werden?",
-    faq5Answer: "Absolut. Wir sind darauf spezialisiert, unsere Assessments auf spezifische Branchen und organisatorische Kontexte zuzuschneiden. Wir arbeiten eng mit Ihnen zusammen, um Ihre Branchenherausforderungen zu verstehen und Szenarien anzupassen, die reale Situationen widerspiegeln, mit denen Ihre Führungskräfte konfrontiert sein werden.",
+    faq5Answer: "Absolut. Wir sind darauf spezialisiert, unsere Assessments auf spezifische Branchen und organisatorische Kontexte zuzuschneiden. Wir arbeiten eng mit Ihnen zusammen, um Ihre Branchenherausforderungen zu verstehen und Szenarien anzupassen, die reale Situationen your Führungskräfte konfrontiert sein werden.",
     faq6Question: "Ist meine Leadership Journey vollständig individualisiert?",
     faq6Answer: "Wir setzen auf 'Smart-Tailoring' - während unser bewährtes Framework konsistente Qualität sicherstellt, passen wir unseren Ansatz an deinen spezifischen Kontext, deine Herausforderungen und Ziele an.",
     faq7Question: "Warum brauchen Führungskräfte Coaching-Fähigkeiten?",

@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+@import url('https://oneplus.com/content/dam/oasis/page/common/font-family/op-sans.css');
 
 @tailwind base;
 @tailwind components;
@@ -54,11 +54,11 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground font-oneplus;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sans font-bold;
+    @apply font-oneplus font-bold;
   }
 }
 

@@ -25,11 +25,11 @@ export const translations = {
 
     // Home Services Section
     homeServicesTitle: "Our Services",
-    homeService1Title: "Assessing competency",
+    homeService1Title: "Assessment Center",
     homeService1Description: "Diagnostics to get the right person in the right seat. Assess, understand and select potential hires.",
-    homeService2Title: "Development journeys",
+    homeService2Title: "Leadership Development",
     homeService2Description: "Tailored workshops and one-on-one coaching to build on strengths and develop potential.",
-    homeService3Title: "Holistic transformation",
+    homeService3Title: "Holistic Transformation",
     homeService3Description: "Strategic consulting and change support that puts people at the heart of your transformation.",
 
     // Home Journey Section
@@ -181,9 +181,9 @@ export const translations = {
 
     // Home Services Section
     homeServicesTitle: "Unsere Dienstleistungen",
-    homeService1Title: "Kompetenzbewertung",
+    homeService1Title: "Assessment Center",
     homeService1Description: "Diagnostik, um die richtige Person am richtigen Platz zu haben. Bewerten, verstehen und auswählen potenzieller Mitarbeiter.",
-    homeService2Title: "Entwicklungswege",
+    homeService2Title: "Leadership Development",
     homeService2Description: "Maßgeschneiderte Workshops und Einzelcoaching, um auf Stärken aufzubauen und Potenzial zu entwickeln.",
     homeService3Title: "Ganzheitliche Transformation",
     homeService3Description: "Strategische Beratung und Unterstützung bei Veränderungen, die den Menschen in den Mittelpunkt Ihrer Transformation stellen.",

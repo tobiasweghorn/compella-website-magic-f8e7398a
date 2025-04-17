@@ -1,6 +1,4 @@
-
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -29,19 +27,20 @@ const Navbar = () => {
     };
   }, []);
 
-  // Function to close mobile menu when clicking on a link
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const handleLinkClick = () => {
     setIsOpen(false);
   };
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
-      }`}
-    >
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+    }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center" onClick={scrollToTop}>
           <img src="/lovable-uploads/6323b77a-c58c-4252-aa84-54f684d7532b.png" alt="Compella" className="h-8" />
         </Link>
         
@@ -51,6 +50,7 @@ const Navbar = () => {
             className={`text-compella-gray hover:text-compella-teal transition-colors duration-200 ${
               location.pathname === '/' ? 'text-compella-teal' : ''
             }`}
+            onClick={scrollToTop}
           >
             {t.home}
           </Link>
@@ -59,6 +59,7 @@ const Navbar = () => {
             className={`text-compella-gray hover:text-compella-teal transition-colors duration-200 ${
               location.pathname === '/leadership-assessment' ? 'text-compella-teal' : ''
             }`}
+            onClick={scrollToTop}
           >
             {t.leadershipAssessment}
           </Link>
@@ -67,6 +68,7 @@ const Navbar = () => {
             className={`text-compella-gray hover:text-compella-teal transition-colors duration-200 ${
               location.pathname === '/leadership-development' ? 'text-compella-teal' : ''
             }`}
+            onClick={scrollToTop}
           >
             {t.leadershipDevelopment}
           </Link>
@@ -96,28 +98,36 @@ const Navbar = () => {
         </button>
       </div>
       
-      {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden bg-white w-full py-4 px-4 shadow-lg">
           <div className="flex flex-col space-y-4">
             <Link 
               to="/" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
-              onClick={handleLinkClick}
+              onClick={() => {
+                handleLinkClick();
+                scrollToTop();
+              }}
             >
               {t.home}
             </Link>
             <Link 
               to="/leadership-assessment" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
-              onClick={handleLinkClick}
+              onClick={() => {
+                handleLinkClick();
+                scrollToTop();
+              }}
             >
               {t.leadershipAssessment}
             </Link>
             <Link 
               to="/leadership-development" 
               className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
-              onClick={handleLinkClick}
+              onClick={() => {
+                handleLinkClick();
+                scrollToTop();
+              }}
             >
               {t.leadershipDevelopment}
             </Link>
@@ -127,14 +137,20 @@ const Navbar = () => {
                 <a 
                   href="#team" 
                   className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
-                  onClick={handleLinkClick}
+                  onClick={() => {
+                    handleLinkClick();
+                    scrollToTop();
+                  }}
                 >
                   {t.team}
                 </a>
                 <a 
                   href="#faq" 
                   className="text-compella-gray hover:text-compella-teal transition-colors duration-200"
-                  onClick={handleLinkClick}
+                  onClick={() => {
+                    handleLinkClick();
+                    scrollToTop();
+                  }}
                 >
                   {t.faq}
                 </a>
@@ -148,7 +164,10 @@ const Navbar = () => {
             <a 
               href="#contact" 
               className="btn-primary text-center"
-              onClick={handleLinkClick}
+              onClick={() => {
+                handleLinkClick();
+                scrollToTop();
+              }}
             >
               {t.getInTouch}
             </a>

@@ -20,7 +20,7 @@ const Index = () => {
       <Toaster />
       <Navbar />
       
-      {/* Hero Section - Updated */}
+      {/* Hero Section - Updated with reversed gradient */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center min-h-[40vh]">
@@ -40,9 +40,9 @@ const Index = () => {
               </div>
             </div>
             
-            {/* Image with Gradient */}
+            {/* Image with Reversed Gradient */}
             <div className="w-full lg:w-1/2 mt-8 lg:mt-0 relative">
-              <div className="absolute inset-0 bg-gradient-to-l from-white via-white/50 to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-r from-white via-white/50 to-transparent z-10" />
               <img 
                 src="/lovable-uploads/2de4355d-91ec-48c2-b1d1-30127afb8928.png" 
                 alt="Transformation Tree" 
@@ -52,7 +52,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Our Services Section */}
       <section id="services" className="section-padding light-section">
         <div className="container mx-auto px-4">
@@ -80,15 +80,15 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Testimonial Section */}
       <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <TestimonialSlider />
         </div>
       </section>
-      
-      {/* How our journey could look like */}
+
+      {/* How our journey could look like - Updated with new image */}
       <section id="journey" className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -98,6 +98,7 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
             <div className="space-y-8">
+              {/* Process steps */}
               <ProcessStep 
                 number={1}
                 title={t.homeJourney1Title}
@@ -131,7 +132,7 @@ const Index = () => {
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/two plants.png" 
+                src="/lovable-uploads/a830d452-1370-4452-9910-a233f544c43f.png" 
                 alt="Our Journey" 
                 className="rounded-lg shadow-lg max-w-full h-auto"
               />
@@ -139,49 +140,8 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
-      {/* Team Section */}
-      <section id="team" className="section-padding colored-section">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.teamTitle}</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">{t.teamDescription}</p>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <TeamMember 
-              name="Marcel Häbold"
-              position="Visionary & Lead consultant"
-              bio={t.marcelBio}
-              imageUrl="/lovable-uploads/20fef5b1-5f77-4ab1-b984-2128105ea089.png"
-              linkedInUrl="https://www.linkedin.com/in/marcel-h%C3%A4bold-aa1326153/"
-            />
-            <TeamMember 
-              name="Maximilian Friedle"
-              position="Integrator & Senior Consultant"
-              bio={t.maxBio}
-              imageUrl="/lovable-uploads/23107770-d9cb-4d38-bd2b-22de4993540f.png"
-              linkedInUrl="https://www.linkedin.com/in/maximilianfriedle/"
-            />
-            <TeamMember 
-              name="Tobias Weghorn"
-              position="Product & Marketing"
-              bio={t.tobiasBio}
-              imageUrl="/lovable-uploads/8dfb99a9-c670-423c-a6d6-e164429c71ef.png"
-              linkedInUrl="https://www.linkedin.com/in/tobiasweghorn/"
-            />
-            <TeamMember 
-              name="Susanne Häbold"
-              position="Sales & Client Success"
-              bio={t.susanneBio}
-              imageUrl="/lovable-uploads/e55c033a-78dc-400d-9b5b-b79e518e0f1d.png"
-              linkedInUrl="https://www.linkedin.com/in/susanne-h%C3%A4bold-a594b5175/"
-            />
-          </div>
-        </div>
-      </section>
-      
-      {/* What we build on Section */}
+
+      {/* What we build on - Updated with new images */}
       <section id="foundation" className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="mb-10 max-w-3xl">
@@ -192,18 +152,32 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+              <div className="mb-4 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/d424b86f-2075-46d9-a933-50405db536cd.png"
+                  alt="metaFox Coaching Tools"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
               <h3 className="font-semibold mb-3 text-compella-gray">{t.homeFoundation1Title}</h3>
               <p className="text-gray-600">{t.homeFoundation1Description}</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+              <div className="mb-4 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/558f50a3-a219-46bc-baf8-f82dcf692fb6.png"
+                  alt="Diagnostics & Consulting"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
               <h3 className="font-semibold mb-3 text-compella-gray">{t.homeFoundation2Title}</h3>
               <p className="text-gray-600">{t.homeFoundation2Description}</p>
             </div>
           </div>
         </div>
       </section>
-      
-      {/* FAQ Section */}
+
+      {/* FAQ Section - Updated with new questions */}
       <section id="faq" className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -214,6 +188,18 @@ const Index = () => {
           <div className="max-w-3xl mx-auto">
             <Accordion 
               items={[
+                {
+                  question: t.faq6Question,
+                  answer: t.faq6Answer
+                },
+                {
+                  question: t.faq7Question,
+                  answer: t.faq7Answer
+                },
+                {
+                  question: t.faq8Question,
+                  answer: t.faq8Answer
+                },
                 {
                   question: t.faq1Question,
                   answer: t.faq1Answer
@@ -239,7 +225,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Contact Section */}
       <section id="contact" className="section-padding light-section">
         <div className="container mx-auto px-4">

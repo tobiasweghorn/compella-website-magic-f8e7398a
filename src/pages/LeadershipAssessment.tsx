@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
@@ -43,7 +42,7 @@ const LeadershipAssessment = () => {
             <div className="hidden lg:flex w-full lg:w-1/2 justify-end items-center pr-0">
               <div className="w-full max-w-[500px] aspect-[4/5] overflow-hidden">
                 <img 
-                  src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
+                  src="/lovable-uploads/34aa5aaf-8a11-4b58-b430-bf99ddea202b.png" 
                   alt="Leadership Assessment"
                   className="w-full h-full object-cover"
                 />
@@ -116,7 +115,7 @@ const LeadershipAssessment = () => {
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/two plants.png" 
+                src="/lovable-uploads/34aa5aaf-8a11-4b58-b430-bf99ddea202b.png" 
                 alt="Leadership Assessment Process" 
                 className="rounded-lg shadow-lg max-w-full h-auto"
               />

@@ -172,7 +172,7 @@ export const translations = {
     // Hero Section
     heroTitle: "Right Person. Right Seat.",
     heroTitleHighlight: "Versprochen.",
-    heroDescription: "Das Compella Assessment gibt einen tiefgreifenden Einblick in Stärken und Entwicklungsfelder einer Kandidat:in. Der Ansatz ist speziell für die Rolle zugeschnitten, für die Sie rekrutieren. So stellen wir sicher, dass Sie die richtigen Personen für die Anforderungen und Ziele Ihrer Organisation einstellen.",
+    heroDescription: "Das Compella Assessment gibt einen tiefgreifenden Einblick in Stärken und Entwicklungsfelder einer Kandidat:in. Der Ansatz ist speziell für die Rolle zugeschnitten, für die Ihr rekrutiert. So stellen wir sicher, dass Ihr die richtigen Personen für die Anforderungen und Ziele Eurer Organisation einstellt.",
     getStarted: "Jetzt mit uns starten",
 
     // Home Hero Section
@@ -250,9 +250,9 @@ export const translations = {
     // How It Works Section
     howItWorksTitle: "Wie das Leadership Assessment funktioniert",
     process1Title: "Ein Bedarfs-Workshop",
-    process1Description: "Wir nehmen uns die Zeit, um die Kultur und Werte Ihrer Organisation und die spezifischen Anforderungen der zu besetzenden Führungsposition vollständig zu verstehen.",
+    process1Description: "Wir nehmen uns die Zeit, um die Kultur und Werte Eurer Organisation und die spezifischen Anforderungen der zu besetzenden Führungsposition vollständig zu verstehen.",
     process2Title: "Anpassung Ihres Kompetenzmodells",
-    process2Description: "Basierend auf Ihren Eingaben und unserer Expertise passen wir unseren Assessment-Ansatz an, um die spezifischen Kompetenzen zu bewerten, die in Ihrem Kontext am wichtigsten für den Erfolg sind.",
+    process2Description: "Basierend auf Euren Eingaben und unserer Expertise passen wir unseren Assessment-Ansatz an, um die spezifischen Kompetenzen zu bewerten, die in Eurem Kontext am wichtigsten für den Erfolg sind.",
     process3Title: "Assessment Center Tag",
     process3Description: "Ihre Kandidat:innen nehmen an sorgfältig gestalteten Szenarien und Übungen teil, die ihre natürlichen Führungstendenzen, Stärken und Entwicklungsbereiche aufzeigen.",
     process4Title: "Ergebnisse und Entwicklungsplan",
@@ -300,7 +300,7 @@ export const translations = {
     
     // Contact Section
     contactTitle: "Kontakt aufnehmen",
-    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Dir!",
+    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Euch!",
     fullName: "Vollständiger Name",
     jobTitle: "Berufsbezeichnung",
     company: "Unternehmen",

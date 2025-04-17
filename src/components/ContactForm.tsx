@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -71,7 +72,7 @@ const ContactForm = () => {
             name="jobTitle"
             value={formData.jobTitle}
             onChange={handleChange}
-            placeholder={language === 'en' ? "Your position" : "Deine Rolle"}
+            placeholder={language === 'en' ? "Your position" : "Ihre Position"}
           />
         </div>
       </div>
@@ -136,7 +137,7 @@ const ContactForm = () => {
       </Button>
       
       <p className="text-sm text-gray-500 text-center">
-        {t.responseMessage}
+        {t.contactDescription}
       </p>
     </form>
   );

@@ -13,7 +13,7 @@ const AccordionItem = ({ question, answer }: AccordionItemProps) => {
   return (
     <div className="border-b border-gray-200">
       <button
-        className="flex justify-between items-center w-full py-4 text-left"
+        className="flex justify-between items-center w-full py-4 text-left bg-transparent"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="font-medium text-compella-gray">{question}</span>
@@ -37,7 +37,7 @@ interface AccordionProps {
 
 const Accordion = ({ items }: AccordionProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-sm">
+    <div className="bg-transparent rounded-lg">
       {items.map((item, index) => (
         <AccordionItem 
           key={index} 

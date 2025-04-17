@@ -9,6 +9,7 @@ import TeamMember from '@/components/TeamMember';
 import ContactForm from '@/components/ContactForm';
 import Accordion from '@/components/Accordion';
 import { Toaster } from "@/components/ui/sonner";
+import TestimonialSlider from '@/components/TestimonialSlider';
 
 const Index = () => {
   return (
@@ -20,8 +21,8 @@ const Index = () => {
       <section className="pt-32 pb-20 relative overflow-hidden">
         <div className="absolute top-0 right-0 left-0 h-full">
           <img 
-            src="/lovable-uploads/632fc182-f9a1-47d3-a06f-cd76afa9e907.png" 
-            alt="Colorful plants" 
+            src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
+            alt="Team meeting" 
             className="w-full h-full object-cover opacity-20" 
           />
         </div>
@@ -76,12 +77,7 @@ const Index = () => {
       {/* Testimonial Section */}
       <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
-          <TestimonialCard 
-            quote="I worked with Tobi and Max for the last year and their consulting was a game-changer for our business. We identified our 10x growth levers and are on our way with our first organizational chart. Excited to move forward!"
-            author="Johannes Decker"
-            position="Co-founder & CEO at Flatfox"
-            rating={5}
-          />
+          <TestimonialSlider />
         </div>
       </section>
       
@@ -118,8 +114,8 @@ const Index = () => {
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
-                alt="Team meeting" 
+                src="/lovable-uploads/632fc182-f9a1-47d3-a06f-cd76afa9e907.png" 
+                alt="Colorful plants" 
                 className="rounded-lg shadow-lg max-w-full h-auto"
               />
             </div>
@@ -255,37 +251,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-compella-gray mb-4">Get in touch</h2>
-            <p className="text-gray-600 max-w-xl mx-auto">Our experts are ready to help! Tell us how.</p>
+            <p className="text-gray-600 max-w-xl mx-auto">We'll get back in touch within 24 hours!</p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <ContactForm />
-            </div>
-            <div className="hidden lg:flex items-center justify-center">
-              <div className="grid grid-cols-3 gap-3 max-w-md">
-                <img 
-                  src="/lovable-uploads/5988edbc-5ead-434e-b8b2-cfbb15e850dd.png"
-                  alt="Team collaboration" 
-                  className="rounded-lg shadow-sm w-full h-auto" 
-                />
-                <img 
-                  src="/lovable-uploads/4a989efc-7c94-460a-b45b-40bf840611c8.png"
-                  alt="Team development" 
-                  className="rounded-lg shadow-sm w-full h-auto row-span-2" 
-                />
-                <img 
-                  src="/lovable-uploads/632fc182-f9a1-47d3-a06f-cd76afa9e907.png"
-                  alt="Colorful plants" 
-                  className="rounded-lg shadow-sm w-full h-auto" 
-                />
-                <img 
-                  src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png"
-                  alt="Team meeting" 
-                  className="rounded-lg shadow-sm w-full h-auto col-span-2" 
-                />
-              </div>
-            </div>
+          <div className="max-w-md mx-auto">
+            <ContactForm />
           </div>
         </div>
       </section>

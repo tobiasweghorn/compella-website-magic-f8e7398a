@@ -6,7 +6,6 @@ import { translations } from '@/utils/translations';
 
 const Footer = () => {
   const { language } = useLanguage();
-  const t = translations[language];
 
   return (
     <footer className="bg-compella-gray text-white py-8">
@@ -19,26 +18,31 @@ const Footer = () => {
               className="h-8 invert" 
             />
           </div>
-          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
-            <div className="text-sm text-gray-400">
-              © 2025 Compella. {t.rights}
-            </div>
-            <div className="flex space-x-6">
-              <a 
-                href="https://metaFox.eu" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-compella-pink transition-colors"
-              >
-                {language === 'en' ? 'Discover Coaching Tools' : 'Coaching Tools entdecken'}
-              </a>
-              <Link 
-                to="/imprint" 
-                className="hover:text-compella-pink transition-colors"
-              >
-                Imprint
-              </Link>
-            </div>
+          <div className="flex flex-wrap justify-center space-x-6">
+            <Link 
+              to="/" 
+              className="hover:text-compella-pink transition-colors"
+            >
+              Home
+            </Link>
+            <Link 
+              to="/leadership-assessment" 
+              className="hover:text-compella-pink transition-colors"
+            >
+              Assessment
+            </Link>
+            <Link 
+              to="/leadership-development" 
+              className="hover:text-compella-pink transition-colors"
+            >
+              Development
+            </Link>
+            <Link 
+              to="/imprint" 
+              className="hover:text-compella-pink transition-colors"
+            >
+              Imprint
+            </Link>
           </div>
         </div>
       </div>

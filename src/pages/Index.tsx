@@ -193,6 +193,40 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Team Section */}
+      <section id="team" className="section-padding light-section">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.teamTitle}</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">{t.teamDescription}</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <TeamMember 
+              name="Maximilian Friedle"
+              position={t.teamPosition1}
+              bio={t.teamBio1}
+              imageUrl="/lovable-uploads/4a989efc-7c94-460a-b45b-40bf840611c8.png"
+              linkedInUrl="https://www.linkedin.com/in/maximilian-friedle/"
+            />
+            <TeamMember 
+              name="Tobias Weghorn"
+              position={t.teamPosition2}
+              bio={t.teamBio2}
+              imageUrl="/lovable-uploads/5542954b-0566-4677-80c3-6bc7a0c24076.png"
+              linkedInUrl="https://www.linkedin.com/in/tobias-weghorn/"
+            />
+            <TeamMember 
+              name="Jennifer Pauli"
+              position={t.teamPosition3}
+              bio={t.teamBio3}
+              imageUrl="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png"
+              linkedInUrl="https://www.linkedin.com/in/jennifer-pauli-089a06217/"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section - Updated with new questions */}
       <section id="faq" className="section-padding colored-section">
         <div className="container mx-auto px-4">

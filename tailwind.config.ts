@@ -109,8 +109,8 @@ export default {
 				'fade-in-up': 'fade-in-up 0.6s ease-out'
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				serif: ['Georgia', 'serif'],
+				sans: ['Roboto', 'sans-serif'],
+				serif: ['Roboto', 'sans-serif'],
 			}
 		}
 	},

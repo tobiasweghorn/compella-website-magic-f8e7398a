@@ -137,24 +137,28 @@ const Index = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             <TeamMember 
-              name="David Miller"
-              position="Leadership Specialist"
-              bio="Over 15 years of experience in executive assessment and leadership coaching."
+              name="Marcel Häbold"
+              position="Visionary & Lead consultant"
+              bio="Leads our consulting practice with strategic vision and deep expertise in organizational development."
+              linkedInUrl="https://www.linkedin.com/in/marcel-h%C3%A4bold-aa1326153/"
             />
             <TeamMember 
-              name="Rebecca Krauss"
-              position="Organizational Psychologist"
-              bio="Specializes in team dynamics and creating high-performing organizational cultures."
+              name="Maximilian Friedle"
+              position="Integrator & Senior Consultant"
+              bio="Brings together our solutions and methodologies to deliver cohesive client experiences."
+              linkedInUrl="https://www.linkedin.com/in/maximilianfriedle/"
             />
             <TeamMember 
-              name="Tobias Wagnera"
-              position="Assessment Expert"
-              bio="Developed our proprietary assessment methodology using the latest research."
+              name="Tobias Weghorn"
+              position="Product & Marketing"
+              bio="Shapes our product offerings and communicates our value proposition to the market."
+              linkedInUrl="https://www.linkedin.com/in/tobiasweghorn/"
             />
             <TeamMember 
-              name="Sara Richard"
-              position="Client Relations"
-              bio="Your dedicated point of contact throughout the entire assessment process."
+              name="Susanne Häbold"
+              position="Sales & Client Success"
+              bio="Ensures our clients receive exceptional value and achieve their desired outcomes."
+              linkedInUrl="https://www.linkedin.com/in/susanne-h%C3%A4bold-a594b5175/"
             />
           </div>
         </div>

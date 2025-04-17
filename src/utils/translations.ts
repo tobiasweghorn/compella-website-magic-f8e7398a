@@ -126,6 +126,7 @@ export const translations = {
     message: "Message",
     sendMessage: "Send Message",
     sending: "Sending...",
+    contactDescription: "We'll respond within 24 hours.",
 
     // FAQ Section
     faqTitle: "Frequently Asked Questions",
@@ -275,13 +276,14 @@ export const translations = {
     
     // Form Fields
     fullName: "Vollständiger Name",
-    jobTitle: "Ihre Rolle",
+    jobTitle: "Deine Rolle",
     company: "Unternehmen",
     email: "E-Mail-Adresse",
     phone: "Telefonnummer",
     message: "Nachricht",
     sendMessage: "Nachricht senden",
     sending: "Wird gesendet...",
+    contactDescription: "Wir antworten innerhalb von 24 Stunden.",
 
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",

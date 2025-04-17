@@ -24,7 +24,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <ServicesSection />
-      <div className="section-padding light-section">
+      <div className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8 text-compella-gray">{t.testimonialsTitle}</h2>
           <TestimonialSlider />
@@ -33,7 +33,9 @@ const Index = () => {
       <JourneySection />
       <TeamSection />
       <FoundationSection />
-      <FAQSection />
+      <div className="colored-section">
+        <FAQSection />
+      </div>
       <ContactSection />
       <Footer />
     </div>

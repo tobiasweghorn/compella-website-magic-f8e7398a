@@ -80,6 +80,6 @@
   }
   
   .colored-section {
-    @apply bg-gradient-to-b from-white via-[#f5e6e0] to-compella-pink/30;
+    @apply bg-gradient-to-r from-white via-[#f5e6e0] to-compella-pink/30;
   }
 }

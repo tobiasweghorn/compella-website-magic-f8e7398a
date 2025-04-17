@@ -16,11 +16,9 @@ const LeadershipDevelopment = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       
-      {/* Hero Section */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center min-h-[40vh]">
-            {/* Text Content */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center pr-0 lg:pr-12">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
                 {t.leadershipDevHeroTitle}<br />
@@ -35,8 +33,6 @@ const LeadershipDevelopment = () => {
                 </a>
               </div>
             </div>
-            
-            {/* Image */}
             <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
               <img 
                 src="/lovable-uploads/4a989efc-7c94-460a-b45b-40bf840611c8.png" 
@@ -48,7 +44,6 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      {/* Challenges Section */}
       <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -76,7 +71,6 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      {/* Development Journey Section with new image */}
       <section className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -118,8 +112,7 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      {/* FAQ Section */}
-      <section id="faq" className="section-padding colored-section">
+      <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.faqDevTitle}</h2>
@@ -151,8 +144,7 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      {/* Contact Section */}
-      <section id="contact" className="section-padding light-section">
+      <section className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-compella-gray mb-4">{t.contactTitle}</h2>
@@ -165,7 +157,6 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      {/* Footer */}
       <footer className="bg-compella-gray text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-6">

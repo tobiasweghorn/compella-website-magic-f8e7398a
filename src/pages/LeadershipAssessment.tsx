@@ -17,12 +17,10 @@ const LeadershipAssessment = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       
-      {/* Hero Section */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center min-h-[50vh]">
             
-            {/* Text Content */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 lg:pl-12">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
                 {t.heroTitle}<br />
@@ -38,7 +36,6 @@ const LeadershipAssessment = () => {
               </div>
             </div>
 
-            {/* Image */}
             <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
               <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-lg">
                 <img 
@@ -52,8 +49,7 @@ const LeadershipAssessment = () => {
         </div>
       </section>
       
-      {/* Features Section */}
-      <section id="services" className="section-padding light-section">
+      <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard 
@@ -75,15 +71,13 @@ const LeadershipAssessment = () => {
         </div>
       </section>
       
-      {/* Testimonial Section */}
-      <section className="section-padding colored-section">
+      <section className="section-padding light-section">
         <div className="container mx-auto px-4">
           <TestimonialSlider />
         </div>
       </section>
       
-      {/* How It Works Section */}
-      <section id="how-it-works" className="section-padding light-section">
+      <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.howItWorksTitle}</h2>
@@ -124,8 +118,7 @@ const LeadershipAssessment = () => {
         </div>
       </section>
       
-      {/* FAQ Section */}
-      <section id="faq" className="section-padding colored-section">
+      <section className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.faqTitle}</h2>
@@ -157,8 +150,7 @@ const LeadershipAssessment = () => {
         </div>
       </section>
       
-      {/* Contact Section */}
-      <section id="contact" className="section-padding light-section">
+      <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-compella-gray mb-4">{t.contactTitle}</h2>
@@ -171,7 +163,6 @@ const LeadershipAssessment = () => {
         </div>
       </section>
       
-      {/* Footer */}
       <footer className="bg-compella-gray text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-6">

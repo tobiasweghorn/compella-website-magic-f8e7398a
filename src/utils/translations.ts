@@ -1,4 +1,3 @@
-
 export const translations = {
   en: {
     // Navbar
@@ -38,6 +37,12 @@ export const translations = {
     // Team Section
     teamTitle: "Our Team",
     teamDescription: "We are experts in people development and organizational development, and we're here to help you build extraordinary teams.",
+    
+    // Team member bios
+    marcelBio: "Marcel is an experienced consultant and coach who is passionate about unlocking the full potential of people and organizations.",
+    maxBio: "Max is an entrepreneur and coach who works passionately to unlock the true potential of people and organizations.",
+    tobiasBio: "Tobi is a trainer, innovator, and networker who drives the development of coaching tools and Compella's marketing.",
+    susanneBio: "Susi embodies care and quality, ensuring clients are in the best hands from first contact to follow-up thanks to years of sales experience.",
     
     // Development Section
     developmentSectionTitle: "Our Development Services",
@@ -117,6 +122,12 @@ export const translations = {
     // Team Section
     teamTitle: "Unser Team",
     teamDescription: "Wir sind Experten für Personalentwicklung, Mitarbeiterführung und Organisationsentwicklung. Team's mit ungewöhnlicher — und dazu passendem neuen Führungsansätzen.",
+    
+    // Team member bios
+    marcelBio: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
+    maxBio: "Max ist Unternehmer und Coach, der leidenschaftlich daran arbeitet, das wahre Potenzial von Menschen und Organisationen zu entfalten.",
+    tobiasBio: "Tobi ist Trainer, Innovator und Netzwerker und treibt die Entwicklung der Coaching Tools und das Marketing von Compella voran.",
+    susanneBio: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
     
     // Development Section
     developmentSectionTitle: "Ihr Führungskräfte-Entwicklung bei uns",

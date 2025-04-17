@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CheckCircle, Target, FileBarChart, BarChart3, Users, ChevronRight, Sparkles } from 'lucide-react';
 import Navbar from '@/components/Navbar';
@@ -141,25 +140,29 @@ const Index = () => {
             <TeamMember 
               name="Marcel Häbold"
               position="Visionary & Lead consultant"
-              bio="Leads our consulting practice with strategic vision and deep expertise in organizational development."
+              bio={t.marcelBio}
+              imageUrl="/lovable-uploads/20fef5b1-5f77-4ab1-b984-2128105ea089.png"
               linkedInUrl="https://www.linkedin.com/in/marcel-h%C3%A4bold-aa1326153/"
             />
             <TeamMember 
               name="Maximilian Friedle"
               position="Integrator & Senior Consultant"
-              bio="Brings together our solutions and methodologies to deliver cohesive client experiences."
+              bio={t.maxBio}
+              imageUrl="/lovable-uploads/23107770-d9cb-4d38-bd2b-22de4993540f.png"
               linkedInUrl="https://www.linkedin.com/in/maximilianfriedle/"
             />
             <TeamMember 
               name="Tobias Weghorn"
               position="Product & Marketing"
-              bio="Shapes our product offerings and communicates our value proposition to the market."
+              bio={t.tobiasBio}
+              imageUrl="/lovable-uploads/8dfb99a9-c670-423c-a6d6-e164429c71ef.png"
               linkedInUrl="https://www.linkedin.com/in/tobiasweghorn/"
             />
             <TeamMember 
               name="Susanne Häbold"
               position="Sales & Client Success"
-              bio="Ensures our clients receive exceptional value and achieve their desired outcomes."
+              bio={t.susanneBio}
+              imageUrl="/lovable-uploads/e55c033a-78dc-400d-9b5b-b79e518e0f1d.png"
               linkedInUrl="https://www.linkedin.com/in/susanne-h%C3%A4bold-a594b5175/"
             />
           </div>

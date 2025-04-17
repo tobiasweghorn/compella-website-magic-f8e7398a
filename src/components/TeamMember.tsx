@@ -18,10 +18,10 @@ const TeamMember = ({ name, position, bio, imageUrl, linkedInUrl }: TeamMemberPr
           <img 
             src={imageUrl} 
             alt={name} 
-            className="w-32 h-32 object-cover rounded-full"
+            className="w-40 h-40 object-cover rounded-full border-2 border-compella-teal"
           />
         ) : (
-          <div className="w-32 h-32 bg-compella-pink rounded-full flex items-center justify-center text-compella-gray text-2xl font-bold">
+          <div className="w-40 h-40 bg-compella-pink rounded-full flex items-center justify-center text-compella-gray text-2xl font-bold">
             {name.charAt(0)}
           </div>
         )}

@@ -21,7 +21,7 @@ const Index = () => {
       <Toaster />
       <Navbar />
       
-      {/* Hero Section - Updated with reversed gradient */}
+      {/* Hero Section - Updated with narrower gradient */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center min-h-[40vh]">
@@ -41,9 +41,9 @@ const Index = () => {
               </div>
             </div>
             
-            {/* Image with Reversed Gradient */}
+            {/* Image with Narrower Gradient */}
             <div className="w-full lg:w-1/2 mt-8 lg:mt-0 relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-white via-white/50 to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-r from-white via-white/30 to-transparent z-10 w-1/2" />
               <img 
                 src="/lovable-uploads/2de4355d-91ec-48c2-b1d1-30127afb8928.png" 
                 alt="Transformation Tree" 

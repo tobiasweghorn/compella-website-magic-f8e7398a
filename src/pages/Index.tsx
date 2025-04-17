@@ -17,39 +17,45 @@ const Index = () => {
       <Toaster />
       <Navbar />
       
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 relative overflow-hidden">
-        <div className="absolute top-0 right-0 left-0 h-full">
+{/* Hero Section */}
+<section className="bg-white">
+  <div className="container mx-auto px-4">
+    <div className="flex flex-col-reverse lg:flex-row items-center min-h-[40vh]">
+      
+      {/* Text Content */}
+      <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 lg:pl-12">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
+          Right person, right seat.<br />
+          <span className="text-compella-teal">Promised.</span>
+        </h1>
+        <p className="text-lg mb-8 text-gray-700 animate-fade-in-up">
+          The Compella Assessment provides deep insights into a candidate's strengths and skills for development. This approach is specifically testing for the role you're recruiting for, ensuring that you're hiring the right person for your organization's needs and goals.
+        </p>
+        <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <a href="#contact" className="btn-primary">
+            Get Started
+          </a>
+        </div>
+      </div>
+
+      {/* Image - desktop only */}
+      <div className="hidden lg:flex w-full lg:w-1/2 justify-end items-center pr-0">
+        <div className="w-full max-w-[500px] aspect-[4/5] overflow-hidden">
           <img 
-            src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
-            alt="Team meeting" 
-            className="w-full h-full object-cover opacity-20" 
+            src="/lovable-uploads/two plants.png" 
+            alt="two plants"
+            className="w-full h-full object-cover"
           />
         </div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto md:mx-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
-              Right person, right seat.<br />
-              <span className="text-compella-teal">Promised.</span>
-            </h1>
-            <p className="text-lg mb-8 max-w-2xl text-gray-700 animate-fade-in-up">
-              The Compella Assessment provides deep insights into a candidate's strengths and skills for development. This approach is specifically testing for the role you're recruiting for, ensuring that you're hiring the right person for your organization's needs and goals.
-            </p>
-            <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              <a href="#contact" className="btn-primary">
-                Get Started
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="absolute bottom-0 right-0 hidden md:block">
-          <img 
-            src="/lovable-uploads/6323b77a-c58c-4252-aa84-54f684d7532b.png" 
-            alt="Compella Butterfly" 
-            className="w-32 opacity-30" 
-          />
-        </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
       
       {/* Features Section */}
       <section id="services" className="section-padding light-section">
@@ -114,7 +120,7 @@ const Index = () => {
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/632fc182-f9a1-47d3-a06f-cd76afa9e907.png" 
+                src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
                 alt="Colorful plants" 
                 className="rounded-lg shadow-lg max-w-full h-auto"
               />

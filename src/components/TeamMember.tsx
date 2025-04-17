@@ -25,23 +25,23 @@ const TeamMember = ({ name, position, bio, imageUrl, linkedInUrl }: TeamMemberPr
             {name.charAt(0)}
           </div>
         )}
+        
+        {linkedInUrl && (
+          <a 
+            href={linkedInUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute bottom-0 right-0 bg-white rounded-full p-2 shadow-md text-compella-teal hover:text-compella-gray transition-colors"
+            aria-label={`${name}'s LinkedIn profile`}
+          >
+            <Linkedin size={16} />
+          </a>
+        )}
       </div>
       
       <h3 className="font-semibold text-lg mb-1">{name}</h3>
       <p className="text-compella-teal mb-2">{position}</p>
       <p className="text-sm text-gray-600 mb-3">{bio}</p>
-      
-      {linkedInUrl && (
-        <a 
-          href={linkedInUrl} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-gray-600 hover:text-compella-teal transition-colors"
-          aria-label={`${name}'s LinkedIn profile`}
-        >
-          <Linkedin size={20} />
-        </a>
-      )}
     </div>
   );
 };

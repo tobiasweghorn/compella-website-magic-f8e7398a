@@ -1,21 +1,89 @@
+
 export const translations = {
   en: {
     // Navbar
+    home: "Home",
     services: "Services",
     howItWorks: "How it Works",
+    leadershipAssessment: "Leadership Assessment",
+    leadershipDevelopment: "Leadership Development",
     team: "Team",
     development: "Development",
     faq: "FAQ",
     getInTouch: "Get in Touch",
     switchLanguage: "Switch to German",
 
-    // Hero Section
+    // Original Hero Section (now in Leadership Assessment)
     heroTitle: "Right person, right seat.",
     heroTitleHighlight: "Promised.",
     heroDescription: "The Compella Assessment provides deep insights into a candidate's strengths and skills for development. This approach is specifically testing for the role you're recruiting for, ensuring that you're hiring the right person for your organization's needs and goals.",
     getStarted: "Get Started",
 
-    // Features Section
+    // Home Hero Section
+    homeHeroTitle: "Transforming organisations",
+    homeHeroSubtitle: "inside-out.",
+    homeHeroDescription: "We assess leaders to assess potential. We create journeys for development to unlock it. We help transform your organisation from inside-out.",
+
+    // Home Services Section
+    homeServicesTitle: "Our Services",
+    homeService1Title: "Assessing competency",
+    homeService1Description: "Diagnostics to get the right person in the right seat. Assess, understand and select potential hires.",
+    homeService2Title: "Development journeys",
+    homeService2Description: "Tailored workshops and one-on-one coaching to build on strengths and develop potential.",
+    homeService3Title: "Holistic transformation",
+    homeService3Description: "Strategic consulting and change support that puts people at the heart of your transformation.",
+
+    // Home Journey Section
+    homeJourneyTitle: "How our journey could look like",
+    homeJourney1Title: "Competence Assessment",
+    homeJourney1Description: "Assessment center with role-playing. Identifies potentials and development areas of executives.",
+    homeJourney2Title: "Development Plan",
+    homeJourney2Description: "Builds on the assessment and prioritizes targeted development paths.",
+    homeJourney3Title: "Leadership Development",
+    homeJourney3Description: "Needs-oriented group experience, e.g. 'Leader as Coach'.",
+    homeJourney4Title: "Individual Coaching",
+    homeJourney4Description: "Individual coaching sessions for executives. Recognize blind spots, bring strengths to the street.",
+    homeJourney5Title: "Process Consulting",
+    homeJourney5Description: "Systemic optimization of structures. From pyramid and position to processes and roles.",
+    homeJourney6Title: "Organizational Transformation",
+    homeJourney6Description: "Anchors leadership excellence in the long term in cultural and strategic change.",
+
+    // Home Foundation Section
+    homeFoundationSectionTitle: "Our Foundation",
+    homeFoundationTitle: "What we build on",
+    homeFoundationDescription: "Our expertise comes from years of experience in leadership development and organizational consulting.",
+    homeFoundation1Title: "metaFox Coaching Tools",
+    homeFoundation1Description: "Since 2018 we develop tools for people development and have become a global publisher - it's about time we put them to work at scale ourselves.",
+    homeFoundation2Title: "Diagnostics & Consulting",
+    homeFoundation2Description: "Since 2020 we run assessment and development centers and consult leaders on their organisations' structural and cultural changes.",
+
+    // Leadership Development Hero
+    leadershipDevHeroTitle: "The leader as a coach",
+    leadershipDevHeroSubtitle: "",
+    leadershipDevHeroDescription: "Organisations go through times of rapid change, employees lack orientation. This requires a new leadership paradigm. From directing to empowerment.",
+    leadershipDevHeroCta: "Unlock it with us",
+
+    // Leadership Development Challenges
+    leadershipDevChallengesTitle: "Challenges we address",
+    leadershipDevChallenge1Title: "Self-Leadership Challenges",
+    leadershipDevChallenge1Description: "These are internal struggles leaders face with their own mindset, habits, or behavior. Imposter Syndrome. Micromanagement. Burnout.",
+    leadershipDevChallenge2Title: "Team Leadership Challenges",
+    leadershipDevChallenge2Description: "These involve how the leader interacts with, manages, and supports their team. Lack of Clear Communication. Conflict Avoidance. Unequal Engagement.",
+    leadershipDevChallenge3Title: "Organizational Leadership Challenges",
+    leadershipDevChallenge3Description: "These relate to the leader's role in shaping culture and driving strategy. Misalignment on Vision & Strategy. Resistance to Change. Lack of Accountability Structures.",
+
+    // Leadership Development Journey
+    leadershipDevJourneyTitle: "The solution: a example development journey",
+    leadershipDevJourney1Title: "Leadership Workshop",
+    leadershipDevJourney1Description: "Getting clarity - People vs. Process Problems.",
+    leadershipDevJourney2Title: "Coaching Fundamentals",
+    leadershipDevJourney2Description: "From knowing and directing to asking and listening.",
+    leadershipDevJourney3Title: "Building on Strengths",
+    leadershipDevJourney3Description: "360° Feedback and Strengths Assessments.",
+    leadershipDevJourney4Title: "Leadership Inside-Out",
+    leadershipDevJourney4Description: "From myself to the team to the organisation.",
+
+    // Original Features Section (now in Leadership Assessment)
     feature1Title: "Assessing what matters. With accuracy.",
     feature1Description: "Our assessments are designed to identify what truly matters for each unique position in your team. They're built on decades of leadership research and expertise.",
     feature2Title: "Diagnostic reports. Actionable recommendations.",
@@ -86,8 +154,11 @@ export const translations = {
   
   de: {
     // Navbar
+    home: "Startseite",
     services: "Dienstleistungen",
     howItWorks: "Ablauf",
+    leadershipAssessment: "Leadership Assessment",
+    leadershipDevelopment: "Führungskräfteentwicklung",
     team: "Team",
     development: "Entwicklung",
     faq: "FAQ",
@@ -99,6 +170,70 @@ export const translations = {
     heroTitleHighlight: "Versprochen.",
     heroDescription: "Das Compella Assessment gibt einen tiefgreifenden Einblick in Stärken und Entwicklungsfelder einer Kandidat:in. Der Ansatz ist speziell für die Rolle zugeschnitten, für die Sie rekrutieren. So stellen wir sicher, dass Sie die richtigen Personen für die Anforderungen und Ziele Ihrer Organisation einstellen.",
     getStarted: "Jetzt mit uns starten",
+
+    // Home Hero Section
+    homeHeroTitle: "Organisationen transformieren",
+    homeHeroSubtitle: "von innen heraus.",
+    homeHeroDescription: "Wir bewerten Führungskräfte, um Potenzial zu erkennen. Wir schaffen Entwicklungswege, um dieses Potenzial zu entfalten. Wir helfen, Ihre Organisation von innen heraus zu transformieren.",
+
+    // Home Services Section
+    homeServicesTitle: "Unsere Dienstleistungen",
+    homeService1Title: "Kompetenzbewertung",
+    homeService1Description: "Diagnostik, um die richtige Person am richtigen Platz zu haben. Bewerten, verstehen und auswählen potenzieller Mitarbeiter.",
+    homeService2Title: "Entwicklungswege",
+    homeService2Description: "Maßgeschneiderte Workshops und Einzelcoaching, um auf Stärken aufzubauen und Potenzial zu entwickeln.",
+    homeService3Title: "Ganzheitliche Transformation",
+    homeService3Description: "Strategische Beratung und Unterstützung bei Veränderungen, die den Menschen in den Mittelpunkt Ihrer Transformation stellen.",
+
+    // Home Journey Section
+    homeJourneyTitle: "Wie unsere gemeinsame Reise aussehen könnte",
+    homeJourney1Title: "Kompetenzen Assessment",
+    homeJourney1Description: "Assessment Center mit Rollenspielen. Erkennt Potenziale und Entwicklungsfelder der Führungskräfte.",
+    homeJourney2Title: "Entwicklungsplan",
+    homeJourney2Description: "Baut auf dem Assessment auf und priorisiert gezielte Entwicklungspfade.",
+    homeJourney3Title: "Leadership Development",
+    homeJourney3Description: "Bedarfsorientiert erstellte Gruppenerfahrung, z.B. 'Führungskraft als Coach'.",
+    homeJourney4Title: "Einzelcoaching",
+    homeJourney4Description: "Individuelle Coaching Sessions für Führungskräfte. Blinde Flecken erkennen, Stärken auf die Straße bringen.",
+    homeJourney5Title: "Prozessberatung",
+    homeJourney5Description: "Systemische Optimierung von Strukturen. Von Pyramide und Position zu Prozessen und Rollen.",
+    homeJourney6Title: "Organisations-Transformation",
+    homeJourney6Description: "Verankert Führungsexzellenz langfristig im kulturellen und strategischen Wandel.",
+
+    // Home Foundation Section
+    homeFoundationSectionTitle: "Unsere Grundlage",
+    homeFoundationTitle: "Worauf wir aufbauen",
+    homeFoundationDescription: "Unsere Expertise kommt aus jahrelanger Erfahrung in der Führungskräfteentwicklung und Organisationsberatung.",
+    homeFoundation1Title: "metaFox Coaching Tools",
+    homeFoundation1Description: "Seit 2018 entwickeln wir Tools für die Personalentwicklung und sind zu einem globalen Herausgeber geworden - es wird Zeit, dass wir sie selbst im großen Maßstab einsetzen.",
+    homeFoundation2Title: "Diagnostik & Beratung",
+    homeFoundation2Description: "Seit 2020 führen wir Assessment- und Development-Center durch und beraten Führungskräfte bei strukturellen und kulturellen Veränderungen ihrer Organisationen.",
+
+    // Leadership Development Hero
+    leadershipDevHeroTitle: "Die Führungskraft als Coach",
+    leadershipDevHeroSubtitle: "",
+    leadershipDevHeroDescription: "Organisationen durchleben Zeiten raschen Wandels, Mitarbeitern fehlt die Orientierung. Dies erfordert ein neues Führungsparadigma. Von der Anweisung zur Befähigung.",
+    leadershipDevHeroCta: "Entfalten Sie es mit uns",
+
+    // Leadership Development Challenges
+    leadershipDevChallengesTitle: "Herausforderungen, die wir angehen",
+    leadershipDevChallenge1Title: "Selbstführungs-Herausforderungen",
+    leadershipDevChallenge1Description: "Dies sind interne Kämpfe, mit denen Führungskräfte bei ihrer eigenen Denkweise, Gewohnheiten oder ihrem Verhalten konfrontiert sind. Impostor-Syndrom. Mikromanagement. Burnout.",
+    leadershipDevChallenge2Title: "Team-Führungsherausforderungen",
+    leadershipDevChallenge2Description: "Diese betreffen, wie die Führungskraft mit ihrem Team interagiert, es managt und unterstützt. Mangel an klarer Kommunikation. Konfliktvermeidung. Ungleiche Beteiligung.",
+    leadershipDevChallenge3Title: "Organisatorische Führungsherausforderungen",
+    leadershipDevChallenge3Description: "Diese beziehen sich auf die Rolle der Führungskraft bei der Gestaltung der Kultur und der Umsetzung der Strategie. Fehlende Ausrichtung auf Vision und Strategie. Widerstand gegen Veränderung. Mangel an Verantwortungsstrukturen.",
+
+    // Leadership Development Journey
+    leadershipDevJourneyTitle: "Die Lösung: ein beispielhafter Entwicklungsweg",
+    leadershipDevJourney1Title: "Leadership Workshop",
+    leadershipDevJourney1Description: "Klarheit schaffen - Menschen- vs. Prozessprobleme.",
+    leadershipDevJourney2Title: "Coaching-Grundlagen",
+    leadershipDevJourney2Description: "Vom Wissen und Anweisen zum Fragen und Zuhören.",
+    leadershipDevJourney3Title: "Auf Stärken aufbauen",
+    leadershipDevJourney3Description: "360°-Feedback und Stärkenbewertungen.",
+    leadershipDevJourney4Title: "Führung von innen nach außen",
+    leadershipDevJourney4Description: "Von mir selbst zum Team zur Organisation.",
 
     // Features Section
     feature1Title: "Messen, was wirklich zählt.",

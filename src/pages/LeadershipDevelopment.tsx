@@ -1,42 +1,38 @@
 
 import React from 'react';
-import { Target, Users, RefreshCw, CheckCircle } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
-import TestimonialSlider from '@/components/TestimonialSlider';
 import ProcessStep from '@/components/ProcessStep';
-import TeamMember from '@/components/TeamMember';
-import ContactForm from '@/components/ContactForm';
 import Accordion from '@/components/Accordion';
-import { Toaster } from "@/components/ui/sonner";
+import ContactForm from '@/components/ContactForm';
+import { Users, Activity, LineChart, RefreshCw, Lightbulb, Target } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/utils/translations';
 
-const Index = () => {
+const LeadershipDevelopment = () => {
   const { language } = useLanguage();
   const t = translations[language];
   
   return (
     <div className="min-h-screen bg-white">
-      <Toaster />
       <Navbar />
       
-      {/* Hero Section - New */}
+      {/* Hero Section */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center min-h-[40vh]">
             {/* Text Content */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center pr-0 lg:pr-12">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-compella-gray animate-fade-in">
-                {t.homeHeroTitle}<br />
-                <span className="text-compella-teal">{t.homeHeroSubtitle}</span>
+                {t.leadershipDevHeroTitle}<br />
+                <span className="text-compella-teal">{t.leadershipDevHeroSubtitle}</span>
               </h1>
               <p className="text-lg mb-8 text-gray-700 animate-fade-in-up">
-                {t.homeHeroDescription}
+                {t.leadershipDevHeroDescription}
               </p>
               <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                 <a href="#contact" className="btn-primary">
-                  {t.getStarted}
+                  {t.leadershipDevHeroCta}
                 </a>
               </div>
             </div>
@@ -44,8 +40,8 @@ const Index = () => {
             {/* Image */}
             <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
               <img 
-                src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
-                alt="Compella Services" 
+                src="/lovable-uploads/4a989efc-7c94-460a-b45b-40bf840611c8.png" 
+                alt="Leadership Development" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
@@ -53,46 +49,39 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Our Services Section */}
-      <section id="services" className="section-padding light-section">
+      {/* Challenges Section */}
+      <section className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.homeServicesTitle}</h2>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.leadershipDevChallengesTitle}</h2>
             <div className="w-20 h-1 bg-compella-teal mx-auto"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard 
-              title={t.homeService1Title}
-              description={t.homeService1Description}
-              icon={<Target size={48} />}
+              title={t.leadershipDevChallenge1Title}
+              description={t.leadershipDevChallenge1Description}
+              icon={<Activity size={48} />}
             />
             <FeatureCard 
-              title={t.homeService2Title}
-              description={t.homeService2Description}
+              title={t.leadershipDevChallenge2Title}
+              description={t.leadershipDevChallenge2Description}
               icon={<Users size={48} />}
             />
             <FeatureCard 
-              title={t.homeService3Title}
-              description={t.homeService3Description}
-              icon={<RefreshCw size={48} />}
+              title={t.leadershipDevChallenge3Title}
+              description={t.leadershipDevChallenge3Description}
+              icon={<LineChart size={48} />}
             />
           </div>
         </div>
       </section>
       
-      {/* Testimonial Section */}
-      <section className="section-padding colored-section">
-        <div className="container mx-auto px-4">
-          <TestimonialSlider />
-        </div>
-      </section>
-      
-      {/* How our journey could look like */}
-      <section id="journey" className="section-padding light-section">
+      {/* Development Journey Section */}
+      <section className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.homeJourneyTitle}</h2>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.leadershipDevJourneyTitle}</h2>
             <div className="w-20 h-1 bg-compella-teal mx-auto"></div>
           </div>
           
@@ -100,104 +89,31 @@ const Index = () => {
             <div className="space-y-8">
               <ProcessStep 
                 number={1}
-                title={t.homeJourney1Title}
-                description={t.homeJourney1Description}
+                title={t.leadershipDevJourney1Title}
+                description={t.leadershipDevJourney1Description}
               />
               <ProcessStep 
                 number={2}
-                title={t.homeJourney2Title}
-                description={t.homeJourney2Description}
+                title={t.leadershipDevJourney2Title}
+                description={t.leadershipDevJourney2Description}
               />
               <ProcessStep 
                 number={3}
-                title={t.homeJourney3Title}
-                description={t.homeJourney3Description}
+                title={t.leadershipDevJourney3Title}
+                description={t.leadershipDevJourney3Description}
               />
               <ProcessStep 
                 number={4}
-                title={t.homeJourney4Title}
-                description={t.homeJourney4Description}
-              />
-              <ProcessStep 
-                number={5}
-                title={t.homeJourney5Title}
-                description={t.homeJourney5Description}
-              />
-              <ProcessStep 
-                number={6}
-                title={t.homeJourney6Title}
-                description={t.homeJourney6Description}
+                title={t.leadershipDevJourney4Title}
+                description={t.leadershipDevJourney4Description}
               />
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/two plants.png" 
-                alt="Our Journey" 
+                src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
+                alt="Development Journey" 
                 className="rounded-lg shadow-lg max-w-full h-auto"
               />
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Team Section */}
-      <section id="team" className="section-padding colored-section">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.teamTitle}</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">{t.teamDescription}</p>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <TeamMember 
-              name="Marcel Häbold"
-              position="Visionary & Lead consultant"
-              bio={t.marcelBio}
-              imageUrl="/lovable-uploads/20fef5b1-5f77-4ab1-b984-2128105ea089.png"
-              linkedInUrl="https://www.linkedin.com/in/marcel-h%C3%A4bold-aa1326153/"
-            />
-            <TeamMember 
-              name="Maximilian Friedle"
-              position="Integrator & Senior Consultant"
-              bio={t.maxBio}
-              imageUrl="/lovable-uploads/23107770-d9cb-4d38-bd2b-22de4993540f.png"
-              linkedInUrl="https://www.linkedin.com/in/maximilianfriedle/"
-            />
-            <TeamMember 
-              name="Tobias Weghorn"
-              position="Product & Marketing"
-              bio={t.tobiasBio}
-              imageUrl="/lovable-uploads/8dfb99a9-c670-423c-a6d6-e164429c71ef.png"
-              linkedInUrl="https://www.linkedin.com/in/tobiasweghorn/"
-            />
-            <TeamMember 
-              name="Susanne Häbold"
-              position="Sales & Client Success"
-              bio={t.susanneBio}
-              imageUrl="/lovable-uploads/e55c033a-78dc-400d-9b5b-b79e518e0f1d.png"
-              linkedInUrl="https://www.linkedin.com/in/susanne-h%C3%A4bold-a594b5175/"
-            />
-          </div>
-        </div>
-      </section>
-      
-      {/* What we build on Section */}
-      <section id="foundation" className="section-padding light-section">
-        <div className="container mx-auto px-4">
-          <div className="mb-10 max-w-3xl">
-            <div className="text-compella-teal mb-2 font-medium">{t.homeFoundationSectionTitle}</div>
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.homeFoundationTitle}</h2>
-            <p className="text-gray-600">{t.homeFoundationDescription}</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <h3 className="font-semibold mb-3 text-compella-gray">{t.homeFoundation1Title}</h3>
-              <p className="text-gray-600">{t.homeFoundation1Description}</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <h3 className="font-semibold mb-3 text-compella-gray">{t.homeFoundation2Title}</h3>
-              <p className="text-gray-600">{t.homeFoundation2Description}</p>
             </div>
           </div>
         </div>
@@ -281,4 +197,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default LeadershipDevelopment;

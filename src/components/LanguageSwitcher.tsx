@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
     >
       <Globe size={18} />
       <span className="hidden md:inline">
-        {translations[language].switchLanguage}
+        {language === 'en' ? 'DE' : 'EN'}
       </span>
     </Button>
   );

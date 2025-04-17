@@ -10,7 +10,7 @@ const FoundationSection = () => {
   return (
     <section id="foundation" className="section-padding light-section">
       <div className="container mx-auto px-4">
-        <div className="mb-10 max-w-3xl">
+        <div className="text-center mb-10 max-w-3xl mx-auto">
           <div className="text-compella-teal mb-2 font-medium">{t.homeFoundationSectionTitle}</div>
           <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.homeFoundationTitle}</h2>
           <p className="text-gray-600">{t.homeFoundationDescription}</p>

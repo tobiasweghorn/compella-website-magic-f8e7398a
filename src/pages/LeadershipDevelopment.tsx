@@ -4,6 +4,7 @@ import FeatureCard from '@/components/FeatureCard';
 import ProcessStep from '@/components/ProcessStep';
 import Accordion from '@/components/Accordion';
 import ContactForm from '@/components/ContactForm';
+import Footer from '@/components/home/Footer';
 import { Users, Activity, LineChart, RefreshCw, Lightbulb, Target } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/utils/translations';
@@ -157,28 +158,7 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      <footer className="bg-compella-gray text-white py-8">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center mb-6">
-            <div className="mb-4 md:mb-0">
-              <img 
-                src="/lovable-uploads/6323b77a-c58c-4252-aa84-54f684d7532b.png" 
-                alt="Compella" 
-                className="h-8 invert" 
-              />
-            </div>
-            <div className="flex space-x-6">
-              <a href="#" className="hover:text-compella-pink transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-compella-pink transition-colors">Twitter</a>
-              <a href="#" className="hover:text-compella-pink transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-compella-pink transition-colors">Terms of Service</a>
-            </div>
-          </div>
-          <div className="text-center text-sm text-gray-400">
-            © {new Date().getFullYear()} Compella. {t.rights}
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

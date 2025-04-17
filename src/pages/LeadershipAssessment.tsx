@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
@@ -21,7 +20,7 @@ const LeadershipAssessment = () => {
       {/* Hero Section */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col-reverse lg:flex-row items-center min-h-[30vh]">
+          <div className="flex flex-col lg:flex-row items-center min-h-[50vh]">
             
             {/* Text Content */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 lg:pl-12">
@@ -39,13 +38,13 @@ const LeadershipAssessment = () => {
               </div>
             </div>
 
-            {/* Image - desktop only */}
-            <div className="hidden lg:flex w-full lg:w-1/2 justify-end items-center pr-0">
-              <div className="w-full max-w-[500px] aspect-[16/9] overflow-hidden">
+            {/* Image */}
+            <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+              <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-lg">
                 <img 
                   src="/lovable-uploads/34aa5aaf-8a11-4b58-b430-bf99ddea202b.png" 
                   alt="Leadership Assessment"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>
@@ -137,16 +136,20 @@ const LeadershipAssessment = () => {
             <Accordion 
               items={[
                 {
-                  question: t.faq1Question,
-                  answer: t.faq1Answer
+                  question: "What is included in the assessment?",
+                  answer: "Our comprehensive assessment package includes: 1) A thorough needs assessment to understand your organization's requirements, 2) Customization of your competency model, 3) A full assessment day featuring tailored role-plays and exercises, and 4) A detailed report with clear recommendations."
                 },
                 {
-                  question: t.faq2Question,
-                  answer: t.faq2Answer
+                  question: "What if the recommended candidate is not a fit?",
+                  answer: "We stand behind our recommendations. We only recommend candidates when we are fully convinced of their fit. If a hired candidate leaves within the first 3 months after hire, you receive another assessment completely free of charge. We also offer a money-back guarantee for your peace of mind."
                 },
                 {
-                  question: t.faq3Question,
-                  answer: t.faq3Answer
+                  question: "How long does the assessment process take?",
+                  answer: "The typical timeline from initial contact to final report is 2-3 weeks. The assessment day itself is a full day, and you receive the detailed report within 5 working days after the assessment."
+                },
+                {
+                  question: "Can you assess multiple candidates simultaneously?",
+                  answer: "Yes, we can conduct assessments for multiple candidates. Our process is designed to maintain the same high quality whether we're assessing one candidate or a group, ensuring fair and comprehensive evaluation for all."
                 }
               ]}
             />

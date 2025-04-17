@@ -137,6 +137,18 @@ export const translations = {
     faq3Question: "What makes Compella unique?",
     faq3Answer: "We are the creators of metaFox Coaching Tools, which gives us unique insights and capabilities in leadership development. This expertise, combined with our practical experience in organizational consulting, allows us to unlock transformative power in your organization.",
 
+    // FAQ Section - Leadership Development
+    faqDevTitle: "Workshop Design & Delivery",
+    faqDevDescription: "Learn more about our approach to leadership development.",
+    faqDev1Question: "How do you design your workshops?",
+    faqDev1Answer: "Our 'smart-tailored' approach combines proven frameworks with your specific context. We leverage metaFox coaching tools and our extensive hands-on experience to create workshops that deliver immediate value while building long-term capabilities.",
+    faqDev2Question: "What makes your development approach unique?",
+    faqDev2Answer: "As creators of metaFox coaching tools, we bring unique insights and practical tools to leadership development. Our approach is built on years of real-world experience and continuously refined methodologies.",
+    faqDev3Question: "How do you ensure learning transfer?",
+    faqDev3Answer: "We combine interactive workshops with practical application periods and follow-up coaching. Participants work on real challenges from their daily work, ensuring immediate relevance and application.",
+    faqDev4Question: "What is the typical workshop format?",
+    faqDev4Answer: "While formats are tailored to your needs, we typically recommend a combination of group workshops (1-2 days) followed by individual coaching sessions. This ensures both skill development and personalized application.",
+
     // Footer
     rights: "All rights reserved.",
 
@@ -280,6 +292,18 @@ export const translations = {
     faq2Answer: "Moderne Führung erfordert es, Mitarbeiter zu befähigen, Eigenverantwortung zu übernehmen und flexibler und schneller zu handeln. Coaching-Fähigkeiten helfen Führungskräften, ihre Teams zu stärken, Innovation zu fördern und eine Umgebung kontinuierlichen Wachstums zu schaffen.",
     faq3Question: "Was macht Compella einzigartig?",
     faq3Answer: "Wir sind die Entwickler der metaFox Coaching Tools, was uns einzigartige Einblicke und Möglichkeiten in der Führungskräfteentwicklung gibt. Diese Expertise, kombiniert mit unserer praktischen Erfahrung in der Organisationsberatung, ermöglicht es uns, transformative Kraft in deiner Organisation zu entfalten.",
+
+    // FAQ Section - Leadership Development
+    faqDevTitle: "Workshop Design & Delivery",
+    faqDevDescription: "Learn more about our approach to leadership development.",
+    faqDev1Question: "How do you design your workshops?",
+    faqDev1Answer: "Our 'smart-tailored' approach combines proven frameworks with your specific context. We leverage metaFox coaching tools and our extensive hands-on experience to create workshops that deliver immediate value while building long-term capabilities.",
+    faqDev2Question: "What makes your development approach unique?",
+    faqDev2Answer: "As creators of metaFox coaching tools, we bring unique insights and practical tools to leadership development. Our approach is built on years of real-world experience and continuously refined methodologies.",
+    faqDev3Question: "How do you ensure learning transfer?",
+    faqDev3Answer: "We combine interactive workshops with practical application periods and follow-up coaching. Participants work on real challenges from their daily work, ensuring immediate relevance and application.",
+    faqDev4Question: "What is the typical workshop format?",
+    faqDev4Answer: "While formats are tailored to your needs, we typically recommend a combination of group workshops (1-2 days) followed by individual coaching sessions. This ensures both skill development and personalized application.",
 
     // Footer
     rights: "Alle Rechte vorbehalten.",

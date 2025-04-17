@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
@@ -123,24 +122,28 @@ const LeadershipDevelopment = () => {
       <section id="faq" className="section-padding colored-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.faqTitle}</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">{t.faqDescription}</p>
+            <h2 className="text-3xl font-bold mb-4 text-compella-gray">{t.faqDevTitle}</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">{t.faqDevDescription}</p>
           </div>
           
           <div className="max-w-3xl mx-auto">
             <Accordion 
               items={[
                 {
-                  question: t.faq1Question,
-                  answer: t.faq1Answer
+                  question: t.faqDev1Question,
+                  answer: t.faqDev1Answer
                 },
                 {
-                  question: t.faq2Question,
-                  answer: t.faq2Answer
+                  question: t.faqDev2Question,
+                  answer: t.faqDev2Answer
                 },
                 {
-                  question: t.faq3Question,
-                  answer: t.faq3Answer
+                  question: t.faqDev3Question,
+                  answer: t.faqDev3Answer
+                },
+                {
+                  question: t.faqDev4Question,
+                  answer: t.faqDev4Answer
                 }
               ]}
             />

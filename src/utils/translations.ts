@@ -1,4 +1,3 @@
-
 export const translations = {
   en: {
     // Navbar
@@ -151,7 +150,6 @@ export const translations = {
     // Footer
     rights: "All rights reserved.",
   },
-  
   de: {
     // Navbar
     home: "Startseite",
@@ -172,9 +170,9 @@ export const translations = {
     getStarted: "Jetzt mit uns starten",
 
     // Home Hero Section
-    homeHeroTitle: "Organisationen transformieren",
-    homeHeroSubtitle: "von innen heraus.",
-    homeHeroDescription: "Wir bewerten Führungskräfte, um Potenzial zu erkennen. Wir schaffen Entwicklungswege, um dieses Potenzial zu entfalten. Wir helfen, Ihre Organisation von innen heraus zu transformieren.",
+    homeHeroTitle: "Transformation Ermöglichen.",
+    homeHeroSubtitle: "Inside-Out.",
+    homeHeroDescription: "Wir bieten Assessment um Potentiale zu erkennen. Wir gestalten Entwicklungsreisen um dieses Potential zu entfalten. Wir helfen deine Organisation von innen nach außen zu transformieren.",
 
     // Home Services Section
     homeServicesTitle: "Unsere Dienstleistungen",
@@ -272,25 +270,25 @@ export const translations = {
     developmentCenterDescription: "Strukturierte Programme zur Identifizierung und Förderung der Führungsfähigkeiten Ihrer bestehenden Talentpool.",
     teamDevelopment: "Team Entwicklung",
     teamDevelopmentDescription: "Maßgeschneiderte Workshops und kontinuierliche Unterstützung zur Stärkung der Teamdynamik und der kollaborativen Leistung.",
-    contactUs: "Kontaktieren Sie uns",
+    contactUs: "Kontaktiere uns",
     
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",
-    faqDescription: "Hier finden Sie die Antworten auf häufig gestellte Fragen über unseren Leadership-Assessment-Prozess.",
+    faqDescription: "Hier findest du die Antworten auf häufig gestellte Fragen über unseren Leadership-Assessment-Prozess.",
     faq1Question: "Wie lange dauert eine Bewertung typischerweise?",
     faq1Answer: "Unser Standardbewertungsprozess nimmt einen ganzen Tag für die Assessment-Center-Aktivitäten in Anspruch. Die Vorbereitung und Berichtslieferung fügen dem gesamten Prozess typischerweise eine weitere Woche hinzu. Wir können bei Bedarf auch beschleunigte Zeitpläne anbieten.",
     faq2Question: "Was ist in den Kosten enthalten?",
     faq2Answer: "Unsere Bewertungspakete umfassen die Vorbewertungsberatung, alle Bewertungsmaterialien und -übungen, Moderatorenzeit, umfassende Berichte mit detaillierten Analysen und eine Nachbesprechung zur Diskussion der Ergebnisse und Empfehlungen.",
     faq3Question: "Wie viele Kandidaten können Sie auf einmal bewerten?",
     faq3Answer: "Wir können bis zu 6 Kandidaten an einem einzelnen Assessment-Center-Tag bewerten. Für größere Gruppen können wir mehrere Sitzungen arrangieren oder einen effizienteren Prozess je nach Ihren spezifischen Bedürfnissen anpassen.",
-    faq4Question: "Bieten Sie virtuelle Assessments an?",
+    faq4Question: "Bietet Ihr virtuelle Assessments an?",
     faq4Answer: "Ja! Wir haben robuste virtuelle Bewertungsmethoden entwickelt, die die Qualität und Tiefe der Einblicke beibehalten und gleichzeitig Remote-Teilnehmer berücksichtigen. Unsere virtuellen Assessments verwenden sichere Plattformen und sind so konzipiert, dass sie die gleichen Kompetenzen bewerten wie unsere persönlichen Zentren.",
     faq5Question: "Können Assessments an unsere Branche angepasst werden?",
     faq5Answer: "Absolut. Wir sind darauf spezialisiert, unsere Assessments auf spezifische Branchen und organisatorische Kontexte zuzuschneiden. Wir arbeiten eng mit Ihnen zusammen, um Ihre Branchenherausforderungen zu verstehen und Szenarien anzupassen, die reale Situationen widerspiegeln, mit denen Ihre Führungskräfte konfrontiert sein werden.",
     
     // Contact Section
     contactTitle: "Kontakt aufnehmen",
-    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Ihnen!",
+    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Dir!",
     fullName: "Vollständiger Name",
     jobTitle: "Berufsbezeichnung",
     company: "Unternehmen",

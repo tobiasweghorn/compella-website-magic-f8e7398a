@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Target, Users, RefreshCw, CheckCircle } from 'lucide-react';
 import Navbar from '@/components/Navbar';
@@ -21,7 +20,7 @@ const Index = () => {
       <Toaster />
       <Navbar />
       
-      {/* Hero Section - New */}
+      {/* Hero Section - Updated */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center min-h-[40vh]">
@@ -41,12 +40,13 @@ const Index = () => {
               </div>
             </div>
             
-            {/* Image */}
-            <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+            {/* Image with Gradient */}
+            <div className="w-full lg:w-1/2 mt-8 lg:mt-0 relative">
+              <div className="absolute inset-0 bg-gradient-to-l from-white via-white/50 to-transparent z-10" />
               <img 
-                src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
-                alt="Compella Services" 
-                className="rounded-lg shadow-lg w-full h-auto"
+                src="/lovable-uploads/2de4355d-91ec-48c2-b1d1-30127afb8928.png" 
+                alt="Transformation Tree" 
+                className="rounded-lg w-full h-auto relative"
               />
             </div>
           </div>

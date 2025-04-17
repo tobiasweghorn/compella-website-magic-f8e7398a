@@ -1,3 +1,4 @@
+
 export const translations = {
   en: {
     // Navbar
@@ -113,7 +114,11 @@ export const translations = {
     teamPosition4: "Sales & Client Success",
     teamBio4: "Susi embodies care and quality, ensuring clients are well taken care of from first contact to follow-up thanks to years of sales experience.",
     
-    // Contact Form
+    // Contact Section
+    contactTitle: "Get in touch",
+    contactDescription: "We'll get back in touch within 24 hours!",
+    
+    // Form Fields
     fullName: "Full Name",
     jobTitle: "Job Title",
     company: "Company",
@@ -122,11 +127,6 @@ export const translations = {
     message: "Message",
     sendMessage: "Send Message",
     sending: "Sending...",
-    getInTouch: "Get in Touch",
-    
-    // Navigation
-    team: "Team",
-    faq: "FAQ",
 
     // FAQ Section
     faqTitle: "Frequently Asked Questions",
@@ -147,18 +147,6 @@ export const translations = {
     faq7Answer: "Modern leadership requires enabling employees to take ownership and act more flexibly and faster. Coaching skills help leaders empower their teams, foster innovation, and create an environment of continuous growth.",
     faq8Question: "What makes Compella unique?",
     faq8Answer: "We are the creators of metaFox Coaching Tools, which gives us unique insights and capabilities in leadership development. This expertise, combined with our practical experience in organizational consulting, allows us to unlock transformative power in your organization.",
-    
-    // Contact Section
-    contactTitle: "Get in touch",
-    contactDescription: "We'll get back in touch within 24 hours!",
-    fullName: "Full Name",
-    jobTitle: "Job Title",
-    company: "Company",
-    email: "Email Address",
-    phone: "Phone Number",
-    message: "Message",
-    sendMessage: "Send Message",
-    sending: "Sending Message...",
 
     // Footer
     rights: "All rights reserved.",
@@ -277,7 +265,11 @@ export const translations = {
     teamPosition4: "Sales & Client Success",
     teamBio4: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
     
-    // Contact Form
+    // Contact Section
+    contactTitle: "Kontakt aufnehmen",
+    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Euch!",
+    
+    // Form Fields
     fullName: "Vollständiger Name",
     jobTitle: "Berufsbezeichnung",
     company: "Unternehmen",
@@ -286,11 +278,6 @@ export const translations = {
     message: "Nachricht",
     sendMessage: "Nachricht senden",
     sending: "Wird gesendet...",
-    getInTouch: "Kontakt aufnehmen",
-    
-    // Navigation
-    team: "Team",
-    faq: "FAQ",
 
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",
@@ -311,20 +298,9 @@ export const translations = {
     faq7Answer: "Moderne Führung erfordert es, Mitarbeiter zu befähigen, Eigenverantwortung zu übernehmen und flexibler und schneller zu handeln. Coaching-Fähigkeiten helfen Führungskräften, ihre Teams zu stärken, Innovation zu fördern und eine Umgebung kontinuierlichen Wachstums zu schaffen.",
     faq8Question: "Was macht Compella einzigartig?",
     faq8Answer: "Wir sind die Entwickler der metaFox Coaching Tools, was uns einzigartige Einblicke und Möglichkeiten in der Führungskräfteentwicklung gibt. Diese Expertise, kombiniert mit unserer praktischen Erfahrung in der Organisationsberatung, ermöglicht es uns, transformative Kraft in deiner Organisation zu entfalten.",
-    
-    // Contact Section
-    contactTitle: "Kontakt aufnehmen",
-    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Euch!",
-    fullName: "Vollständiger Name",
-    jobTitle: "Berufsbezeichnung",
-    company: "Unternehmen",
-    email: "E-Mail-Adresse",
-    phone: "Telefonnummer",
-    message: "Nachricht",
-    sendMessage: "Nachricht senden",
-    sending: "Nachricht wird gesendet...",
 
     // Footer
     rights: "Alle Rechte vorbehalten.",
   }
 };
+

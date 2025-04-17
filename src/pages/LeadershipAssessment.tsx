@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
@@ -146,14 +147,6 @@ const LeadershipAssessment = () => {
                 {
                   question: t.faq3Question,
                   answer: t.faq3Answer
-                },
-                {
-                  question: t.faq4Question,
-                  answer: t.faq4Answer
-                },
-                {
-                  question: t.faq5Question,
-                  answer: t.faq5Answer
                 }
               ]}
             />

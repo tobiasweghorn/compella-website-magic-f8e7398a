@@ -16,7 +16,7 @@ const JourneySection = () => {
           <div className="w-20 h-1 bg-compella-teal mx-auto"></div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16">
           <div className="space-y-8">
             <ProcessStep 
               number={1}
@@ -53,7 +53,7 @@ const JourneySection = () => {
             <img 
               src="/lovable-uploads/a830d452-1370-4452-9910-a233f544c43f.png" 
               alt="Our Journey" 
-              className="rounded-lg shadow-lg max-w-full h-[400px] object-cover"
+              className="w-full h-[600px] object-cover object-center rounded-lg shadow-lg"
             />
           </div>
         </div>
@@ -63,3 +63,4 @@ const JourneySection = () => {
 };
 
 export default JourneySection;
+

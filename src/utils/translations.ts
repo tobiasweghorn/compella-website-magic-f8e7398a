@@ -1,4 +1,3 @@
-
 export const translations = {
   en: {
     // Navbar
@@ -104,7 +103,7 @@ export const translations = {
 
     // Team Section
     teamTitle: "Who we are",
-    teamDescription: "We are experts in people development and organizational development, helping you build extraordinary teams.",
+    teamDescription: "We are experts in diagnostics, coaching, and organizational development.",
     teamPosition1: "Visionary & Senior Consultant",
     teamBio1: "Marcel is an experienced consultant and coach who is passionate about unlocking the full potential of people and organizations.",
     teamPosition2: "Integrator & Senior Consultant",
@@ -116,11 +115,11 @@ export const translations = {
     
     // Contact Section
     contactTitle: "Get in touch",
-    contactDescription: "We'll get back in touch within 24 hours!",
+    contactDescription: "Behind this form is a real person looking forward to a free initial consultation and needs analysis with you. Just drop us a message.",
     
     // Form Fields
     fullName: "Full Name",
-    jobTitle: "Job Title",
+    jobTitle: "Your Role",
     company: "Company",
     email: "Email Address",
     phone: "Phone Number",
@@ -131,25 +130,18 @@ export const translations = {
     // FAQ Section
     faqTitle: "Frequently Asked Questions",
     faqDescription: "Everything you need to know about our leadership assessment process.",
-    faq1Question: "How long does an assessment typically take?",
-    faq1Answer: "Our standard assessment process takes one full day for the assessment center activities. The preparation and report delivery typically add another week to the complete process. We can also offer accelerated timelines when needed.",
-    faq2Question: "What's included in the cost?",
-    faq2Answer: "Our assessment packages include the pre-assessment consultation, all assessment materials and exercises, facilitator time, comprehensive reports with detailed analysis, and a follow-up consultation to discuss results and recommendations.",
-    faq3Question: "How many candidates can you assess at once?",
-    faq3Answer: "We can assess up to 6 candidates in a single assessment center day. For larger groups, we can arrange multiple sessions or customize a more efficient process depending on your specific needs.",
-    faq4Question: "Do you offer virtual assessments?",
-    faq4Answer: "Yes! We've developed robust virtual assessment methodologies that maintain the quality and depth of insights while accommodating remote participants. Our virtual assessments use secure platforms and are designed to evaluate the same competencies as our in-person centers.",
-    faq5Question: "Can assessments be customized for our industry?",
-    faq5Answer: "Absolutely. We specialize in tailoring our assessments to specific industries and organizational contexts. We'll work closely with you to understand your industry challenges and customize scenarios that reflect real situations your leaders will face.",
-    faq6Question: "Is my leadership journey fully customised?",
-    faq6Answer: "We believe in 'smart-tailoring' - while our proven framework ensures consistent quality, we adapt our approach to your specific context, challenges, and goals.",
-    faq7Question: "Why do leaders need coaching skills?",
-    faq7Answer: "Modern leadership requires enabling employees to take ownership and act more flexibly and faster. Coaching skills help leaders empower their teams, foster innovation, and create an environment of continuous growth.",
-    faq8Question: "What makes Compella unique?",
-    faq8Answer: "We are the creators of metaFox Coaching Tools, which gives us unique insights and capabilities in leadership development. This expertise, combined with our practical experience in organizational consulting, allows us to unlock transformative power in your organization.",
+    faq1Question: "Is my leadership journey fully customised?",
+    faq1Answer: "We believe in 'smart-tailoring' - while our proven framework ensures consistent quality, we adapt our approach to your specific context, challenges, and goals.",
+    faq2Question: "Why do leaders need coaching skills?",
+    faq2Answer: "Modern leadership requires enabling employees to take ownership and act more flexibly and faster. Coaching skills help leaders empower their teams, foster innovation, and create an environment of continuous growth.",
+    faq3Question: "What makes Compella unique?",
+    faq3Answer: "We are the creators of metaFox Coaching Tools, which gives us unique insights and capabilities in leadership development. This expertise, combined with our practical experience in organizational consulting, allows us to unlock transformative power in your organization.",
 
     // Footer
     rights: "All rights reserved.",
+
+    // Testimonials
+    testimonialsTitle: "What customers say about us",
   },
   de: {
     // Navbar
@@ -255,7 +247,7 @@ export const translations = {
 
     // Team Section
     teamTitle: "Wer wir sind",
-    teamDescription: "Wir sind Experten für Personalentwicklung, Mitarbeiterführung und Organisationsentwicklung.",
+    teamDescription: "Wir sind Experten für Diagnostik, Coaching und Organisationsentwicklung.",
     teamPosition1: "Visionary & Senior Consultant",
     teamBio1: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
     teamPosition2: "Integrator & Senior Consultant",
@@ -267,11 +259,11 @@ export const translations = {
     
     // Contact Section
     contactTitle: "Kontakt aufnehmen",
-    contactDescription: "Wir melden uns innerhalb von 24 Stunden bei Euch!",
+    contactDescription: "Hinter diesem Formular wartet ein Mensch und freut sich auf ein kostenfreies Kennenlernen und Bedarfsanalyse mit dir. Schreib uns einfach.",
     
     // Form Fields
     fullName: "Vollständiger Name",
-    jobTitle: "Berufsbezeichnung",
+    jobTitle: "Ihre Rolle",
     company: "Unternehmen",
     email: "E-Mail-Adresse",
     phone: "Telefonnummer",
@@ -282,25 +274,17 @@ export const translations = {
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",
     faqDescription: "Hier findest du die Antworten auf häufig gestellte Fragen über unseren Leadership-Assessment-Prozess.",
-    faq1Question: "Wie lange dauert eine Bewertung typischerweise?",
-    faq1Answer: "Unser Standardbewertungsprozess nimmt einen ganzen Tag für die Assessment-Center-Aktivitäten in Anspruch. Die Vorbereitung und Berichtslieferung fügen dem gesamten Prozess typischerweise eine weitere Woche hinzu. Wir können bei Bedarf auch beschleunigte Zeitpläne anbieten.",
-    faq2Question: "Was ist in den Kosten enthalten?",
-    faq2Answer: "Unsere Bewertungspakete umfassen die Vorbewertungsberatung, alle Bewertungsmaterialien und -übungen, Moderatorenzeit, umfassende Berichte mit detaillierten Analysen und eine Nachbesprechung zur Diskussion der Ergebnisse und Empfehlungen.",
-    faq3Question: "Wie viele Kandidaten können Sie auf einmal bewerten?",
-    faq3Answer: "Wir können bis zu 6 Kandidaten an einem einzelnen Assessment-Center-Tag bewerten. Für größere Gruppen können wir mehrere Sitzungen arrangieren oder einen effizienteren Prozess je nach Ihren spezifischen Bedürfnissen anpassen.",
-    faq4Question: "Bietet Ihr virtuelle Assessments an?",
-    faq4Answer: "Ja! Wir haben robuste virtuelle Bewertungsmethoden entwickelt, die die Qualität und Tiefe der Einblicke beibehalten und gleichzeitig Remote-Teilnehmer berücksichtigen. Unsere virtuellen Assessments verwenden sichere Plattformen und sind so konzipiert, dass sie die gleichen Kompetenzen bewerten wie unsere persönlichen Zentren.",
-    faq5Question: "Können Assessments an unsere Branche angepasst werden?",
-    faq5Answer: "Absolut. Wir sind darauf spezialisiert, unsere Assessments auf spezifische Branchen und organisatorische Kontexte zuzuschneiden. Wir arbeiten eng mit Ihnen zusammen, um Ihre Branchenherausforderungen zu verstehen und Szenarien anzupassen, die reale Situationen your Führungskräfte konfrontiert sein werden.",
-    faq6Question: "Ist meine Leadership Journey vollständig individualisiert?",
-    faq6Answer: "Wir setzen auf 'Smart-Tailoring' - während unser bewährtes Framework konsistente Qualität sicherstellt, passen wir unseren Ansatz an deinen spezifischen Kontext, deine Herausforderungen und Ziele an.",
-    faq7Question: "Warum brauchen Führungskräfte Coaching-Fähigkeiten?",
-    faq7Answer: "Moderne Führung erfordert es, Mitarbeiter zu befähigen, Eigenverantwortung zu übernehmen und flexibler und schneller zu handeln. Coaching-Fähigkeiten helfen Führungskräften, ihre Teams zu stärken, Innovation zu fördern und eine Umgebung kontinuierlichen Wachstums zu schaffen.",
-    faq8Question: "Was macht Compella einzigartig?",
-    faq8Answer: "Wir sind die Entwickler der metaFox Coaching Tools, was uns einzigartige Einblicke und Möglichkeiten in der Führungskräfteentwicklung gibt. Diese Expertise, kombiniert mit unserer praktischen Erfahrung in der Organisationsberatung, ermöglicht es uns, transformative Kraft in deiner Organisation zu entfalten.",
+    faq1Question: "Ist meine Leadership Journey vollständig individualisiert?",
+    faq1Answer: "Wir setzen auf 'Smart-Tailoring' - während unser bewährtes Framework konsistente Qualität sicherstellt, passen wir unseren Ansatz an deinen spezifischen Kontext, deine Herausforderungen und Ziele an.",
+    faq2Question: "Warum brauchen Führungskräfte Coaching-Fähigkeiten?",
+    faq2Answer: "Moderne Führung erfordert es, Mitarbeiter zu befähigen, Eigenverantwortung zu übernehmen und flexibler und schneller zu handeln. Coaching-Fähigkeiten helfen Führungskräften, ihre Teams zu stärken, Innovation zu fördern und eine Umgebung kontinuierlichen Wachstums zu schaffen.",
+    faq3Question: "Was macht Compella einzigartig?",
+    faq3Answer: "Wir sind die Entwickler der metaFox Coaching Tools, was uns einzigartige Einblicke und Möglichkeiten in der Führungskräfteentwicklung gibt. Diese Expertise, kombiniert mit unserer praktischen Erfahrung in der Organisationsberatung, ermöglicht es uns, transformative Kraft in deiner Organisation zu entfalten.",
 
     // Footer
     rights: "Alle Rechte vorbehalten.",
+
+    // Testimonials
+    testimonialsTitle: "Was unsere Kunden über uns sagen",
   }
 };
-

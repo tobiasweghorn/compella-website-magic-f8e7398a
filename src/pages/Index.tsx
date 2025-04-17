@@ -11,18 +11,28 @@ import JourneySection from '@/components/home/JourneySection';
 import FAQSection from '@/components/home/FAQSection';
 import ContactSection from '@/components/home/ContactSection';
 import Footer from '@/components/home/Footer';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/utils/translations';
 
 const Index = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <div className="min-h-screen bg-white">
       <Toaster />
       <Navbar />
       <HeroSection />
       <ServicesSection />
-      <TestimonialSlider />
-      <TeamSection />
       <FoundationSection />
       <JourneySection />
+      <div className="section-padding light-section">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8 text-compella-gray">{t.testimonialsTitle}</h2>
+          <TestimonialSlider />
+        </div>
+      </div>
+      <TeamSection />
       <FAQSection />
       <ContactSection />
       <Footer />
@@ -31,3 +41,4 @@ const Index = () => {
 };
 
 export default Index;
+

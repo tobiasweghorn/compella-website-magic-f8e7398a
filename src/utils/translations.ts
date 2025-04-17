@@ -1,3 +1,4 @@
+
 export const translations = {
   en: {
     // Navbar
@@ -126,7 +127,7 @@ export const translations = {
     message: "Message",
     sendMessage: "Send Message",
     sending: "Sending...",
-    contactDescription: "We'll respond within 24 hours.",
+    responseMessage: "We'll respond within 24 hours.", // Renamed from duplicate contactDescription
 
     // FAQ Section
     faqTitle: "Frequently Asked Questions",
@@ -283,7 +284,7 @@ export const translations = {
     message: "Nachricht",
     sendMessage: "Nachricht senden",
     sending: "Wird gesendet...",
-    contactDescription: "Wir antworten innerhalb von 24 Stunden.",
+    responseMessage: "Wir antworten innerhalb von 24 Stunden.", // Renamed from duplicate contactDescription
 
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",

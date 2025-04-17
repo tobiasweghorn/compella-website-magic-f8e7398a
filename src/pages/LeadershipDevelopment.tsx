@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
@@ -77,7 +76,7 @@ const LeadershipDevelopment = () => {
         </div>
       </section>
       
-      {/* Development Journey Section */}
+      {/* Development Journey Section with new image */}
       <section className="section-padding light-section">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -110,9 +109,9 @@ const LeadershipDevelopment = () => {
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png" 
+                src="/lovable-uploads/abc0017a-b26a-4181-b8db-0fd570f51940.png"
                 alt="Development Journey" 
-                className="rounded-lg shadow-lg max-w-full h-auto"
+                className="rounded-lg shadow-lg max-w-full h-[400px] object-cover"
               />
             </div>
           </div>

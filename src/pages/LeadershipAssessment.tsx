@@ -20,7 +20,7 @@ const LeadershipAssessment = () => {
       {/* Hero Section */}
       <section className="bg-white pt-24">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col-reverse lg:flex-row items-center min-h-[40vh]">
+          <div className="flex flex-col-reverse lg:flex-row items-center min-h-[30vh]">
             
             {/* Text Content */}
             <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 lg:pl-12">
@@ -40,7 +40,7 @@ const LeadershipAssessment = () => {
 
             {/* Image - desktop only */}
             <div className="hidden lg:flex w-full lg:w-1/2 justify-end items-center pr-0">
-              <div className="w-full max-w-[500px] aspect-[4/5] overflow-hidden">
+              <div className="w-full max-w-[500px] aspect-[16/9] overflow-hidden">
                 <img 
                   src="/lovable-uploads/34aa5aaf-8a11-4b58-b430-bf99ddea202b.png" 
                   alt="Leadership Assessment"
@@ -115,9 +115,9 @@ const LeadershipAssessment = () => {
             </div>
             <div className="flex items-center justify-center">
               <img 
-                src="/lovable-uploads/34aa5aaf-8a11-4b58-b430-bf99ddea202b.png" 
+                src="/lovable-uploads/5542954b-0566-4677-80c3-6bc7a0c24076.png"
                 alt="Leadership Assessment Process" 
-                className="rounded-lg shadow-lg max-w-full h-auto"
+                className="rounded-lg shadow-lg max-w-full h-[400px] object-cover"
               />
             </div>
           </div>

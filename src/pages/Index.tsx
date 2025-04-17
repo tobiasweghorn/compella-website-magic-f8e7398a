@@ -10,6 +10,7 @@ import Accordion from '@/components/Accordion';
 import { Toaster } from "@/components/ui/sonner";
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/utils/translations';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const { language } = useLanguage();
@@ -62,21 +63,36 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <FeatureCard 
-              title={t.homeService1Title}
-              description={t.homeService1Description}
-              icon={<Target size={48} />}
-            />
-            <FeatureCard 
-              title={t.homeService2Title}
-              description={t.homeService2Description}
-              icon={<Users size={48} />}
-            />
-            <FeatureCard 
-              title={t.homeService3Title}
-              description={t.homeService3Description}
-              icon={<RefreshCw size={48} />}
-            />
+            <div className="flex flex-col items-center">
+              <FeatureCard 
+                title={t.homeService1Title}
+                description={t.homeService1Description}
+                icon={<Target size={48} />}
+              />
+              <Link to="/leadership-assessment" className="mt-4 text-compella-teal hover:text-compella-teal-dark">
+                {language === 'en' ? 'More on assessments' : 'Mehr zu Assessments'}
+              </Link>
+            </div>
+            <div className="flex flex-col items-center">
+              <FeatureCard 
+                title={t.homeService2Title}
+                description={t.homeService2Description}
+                icon={<Users size={48} />}
+              />
+              <Link to="/leadership-development" className="mt-4 text-compella-teal hover:text-compella-teal-dark">
+                {language === 'en' ? 'More on leadership development' : 'Mehr zu Leadership Development'}
+              </Link>
+            </div>
+            <div className="flex flex-col items-center">
+              <FeatureCard 
+                title={t.homeService3Title}
+                description={t.homeService3Description}
+                icon={<RefreshCw size={48} />}
+              />
+              <a href="#contact" className="mt-4 text-compella-teal hover:text-compella-teal-dark">
+                {language === 'en' ? 'Book a free consultation' : 'Kostenlose Beratung buchen'}
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -134,7 +150,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/a830d452-1370-4452-9910-a233f544c43f.png" 
                 alt="Our Journey" 
-                className="rounded-lg shadow-lg max-w-full h-auto"
+                className="rounded-lg shadow-lg max-w-full h-[400px] object-cover"
               />
             </div>
           </div>
@@ -189,18 +205,6 @@ const Index = () => {
             <Accordion 
               items={[
                 {
-                  question: t.faq6Question,
-                  answer: t.faq6Answer
-                },
-                {
-                  question: t.faq7Question,
-                  answer: t.faq7Answer
-                },
-                {
-                  question: t.faq8Question,
-                  answer: t.faq8Answer
-                },
-                {
                   question: t.faq1Question,
                   answer: t.faq1Answer
                 },
@@ -211,14 +215,6 @@ const Index = () => {
                 {
                   question: t.faq3Question,
                   answer: t.faq3Answer
-                },
-                {
-                  question: t.faq4Question,
-                  answer: t.faq4Answer
-                },
-                {
-                  question: t.faq5Question,
-                  answer: t.faq5Answer
                 }
               ]}
             />
@@ -240,7 +236,7 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Footer */}
+      {/* Updated Footer */}
       <footer className="bg-compella-gray text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-6">
@@ -252,10 +248,20 @@ const Index = () => {
               />
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="hover:text-compella-pink transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-compella-pink transition-colors">Twitter</a>
-              <a href="#" className="hover:text-compella-pink transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-compella-pink transition-colors">Terms of Service</a>
+              <a 
+                href="https://metaFox.eu" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-compella-pink transition-colors"
+              >
+                {language === 'en' ? 'Discover Coaching Tools' : 'Coaching Tools entdecken'}
+              </a>
+              <Link 
+                to="/imprint" 
+                className="hover:text-compella-pink transition-colors"
+              >
+                Imprint
+              </Link>
             </div>
           </div>
           <div className="text-center text-sm text-gray-400">

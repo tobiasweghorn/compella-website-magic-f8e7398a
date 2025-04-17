@@ -12,7 +12,7 @@ export const translations = {
     getInTouch: "Get in Touch",
     switchLanguage: "Switch to German",
 
-    // Original Hero Section (now in Leadership Assessment)
+    // Hero Section
     heroTitle: "Right person, right seat.",
     heroTitleHighlight: "Promised.",
     heroDescription: "The Compella Assessment provides deep insights into a candidate's strengths and skills for development. This approach is specifically testing for the role you're recruiting for, ensuring that you're hiring the right person for your organization's needs and goals.",
@@ -82,7 +82,7 @@ export const translations = {
     leadershipDevJourney4Title: "Leadership Inside-Out",
     leadershipDevJourney4Description: "From myself to the team to the organisation.",
 
-    // Original Features Section (now in Leadership Assessment)
+    // Features Section
     feature1Title: "Assessing what matters. With accuracy.",
     feature1Description: "Our assessments are designed to identify what truly matters for each unique position in your team. They're built on decades of leadership research and expertise.",
     feature2Title: "Diagnostic reports. Actionable recommendations.",

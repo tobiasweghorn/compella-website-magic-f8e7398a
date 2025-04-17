@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import LeadershipAssessment from "./pages/LeadershipAssessment";
 import LeadershipDevelopment from "./pages/LeadershipDevelopment";
 import NotFound from "./pages/NotFound";
+import Imprint from "./pages/Imprint";
 
 const queryClient = new QueryClient();
 

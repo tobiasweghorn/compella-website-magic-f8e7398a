@@ -102,14 +102,18 @@ export const translations = {
     process4Description: "We provide comprehensive reports with clear insights and practical recommendations for both selection decisions and future development.",
 
     // Team Section
-    teamTitle: "Our Team",
-    teamDescription: "We are experts in people development and organizational development, and we're here to help you build extraordinary teams.",
+    teamTitle: "Who we are",
+    teamDescription: "We are experts in people development and organizational development, helping you build extraordinary teams.",
     
-    // Team member bios
-    marcelBio: "Marcel is an experienced consultant and coach who is passionate about unlocking the full potential of people and organizations.",
-    maxBio: "Max is an entrepreneur and coach who works passionately to unlock the true potential of people and organizations.",
-    tobiasBio: "Tobi is a trainer, innovator, and networker who drives the development of coaching tools and Compella's marketing.",
-    susanneBio: "Susi embodies care and quality, ensuring clients are in the best hands from first contact to follow-up thanks to years of sales experience.",
+    // Team members
+    teamPosition1: "Visionary & Senior Consultant",
+    teamBio1: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
+    teamPosition2: "Integrator & Senior Consultant",
+    teamBio2: "Max ist Unternehmer und Coach, der leidenschaftlich daran arbeitet, das wahre Potenzial von Menschen und Organisationen zu entfalten.",
+    teamPosition3: "Product, Marketing & Consultant",
+    teamBio3: "Tobi ist Trainer, Innovator und Netzwerker und treibt die Entwicklung der Coaching Tools und das Marketing von Compella voran.",
+    teamPosition4: "Sales & Client Success",
+    teamBio4: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
     
     // Development Section
     developmentSectionTitle: "Our Development Services",
@@ -259,14 +263,18 @@ export const translations = {
     process4Description: "Wir liefern umfassende Berichte mit klaren Einblicken und praktischen Empfehlungen sowohl für Auswahlentscheidungen als auch für die zukünftige Entwicklung.",
 
     // Team Section
-    teamTitle: "Unser Team",
-    teamDescription: "Wir sind Experten für Personalentwicklung, Mitarbeiterführung und Organisationsentwicklung. Team's mit ungewöhnlicher — und dazu passendem neuen Führungsansätzen.",
+    teamTitle: "Wer wir sind",
+    teamDescription: "Wir sind Experten für Personalentwicklung, Mitarbeiterführung und Organisationsentwicklung.",
     
-    // Team member bios
-    marcelBio: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
-    maxBio: "Max ist Unternehmer und Coach, der leidenschaftlich daran arbeitet, das wahre Potenzial von Menschen und Organisationen zu entfalten.",
-    tobiasBio: "Tobi ist Trainer, Innovator und Netzwerker und treibt die Entwicklung der Coaching Tools und das Marketing von Compella voran.",
-    susanneBio: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
+    // Team members - keeping German for both languages as requested
+    teamPosition1: "Visionary & Senior Consultant",
+    teamBio1: "Marcel ist ein erfahrener Berater und Coach, der sich leidenschaftlich dafür einsetzt, das volle Potenzial von Menschen und Organisationen zu entfalten.",
+    teamPosition2: "Integrator & Senior Consultant",
+    teamBio2: "Max ist Unternehmer und Coach, der leidenschaftlich daran arbeitet, das wahre Potenzial von Menschen und Organisationen zu entfalten.",
+    teamPosition3: "Product, Marketing & Consultant",
+    teamBio3: "Tobi ist Trainer, Innovator und Netzwerker und treibt die Entwicklung der Coaching Tools und das Marketing von Compella voran.",
+    teamPosition4: "Sales & Client Success",
+    teamBio4: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
     
     // Development Section
     developmentSectionTitle: "Ihr Führungskräfte-Entwicklung bei uns",

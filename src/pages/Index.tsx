@@ -201,27 +201,34 @@ const Index = () => {
             <p className="text-gray-600 max-w-2xl mx-auto">{t.teamDescription}</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <TeamMember 
-              name="Maximilian Friedle"
+              name="Marcel Häbold"
               position={t.teamPosition1}
               bio={t.teamBio1}
-              imageUrl="/lovable-uploads/4a989efc-7c94-460a-b45b-40bf840611c8.png"
-              linkedInUrl="https://www.linkedin.com/in/maximilian-friedle/"
+              imageUrl="/lovable-uploads/marcel.jpg"
+              linkedInUrl="https://www.linkedin.com/in/marcel-h%C3%A4bold-aa1326153/"
+            />
+            <TeamMember 
+              name="Maximilian Friedle"
+              position={t.teamPosition2}
+              bio={t.teamBio2}
+              imageUrl="/lovable-uploads/maximilian.jpg"
+              linkedInUrl="https://www.linkedin.com/in/maximilianfriedle/"
             />
             <TeamMember 
               name="Tobias Weghorn"
-              position={t.teamPosition2}
-              bio={t.teamBio2}
-              imageUrl="/lovable-uploads/5542954b-0566-4677-80c3-6bc7a0c24076.png"
-              linkedInUrl="https://www.linkedin.com/in/tobias-weghorn/"
-            />
-            <TeamMember 
-              name="Jennifer Pauli"
               position={t.teamPosition3}
               bio={t.teamBio3}
-              imageUrl="/lovable-uploads/bfa758bf-eeb7-4a4e-afa0-a290492d33ef.png"
-              linkedInUrl="https://www.linkedin.com/in/jennifer-pauli-089a06217/"
+              imageUrl="/lovable-uploads/tobias.jpg"
+              linkedInUrl="https://www.linkedin.com/in/tobiasweghorn/"
+            />
+            <TeamMember 
+              name="Susanne Häbold"
+              position={t.teamPosition4}
+              bio={t.teamBio4}
+              imageUrl="/lovable-uploads/susanne.jpg"
+              linkedInUrl="https://www.linkedin.com/in/susanne-h%C3%A4bold-a594b5175/"
             />
           </div>
         </div>

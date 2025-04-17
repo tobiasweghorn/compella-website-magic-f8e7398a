@@ -13,7 +13,7 @@ export const contactTranslations = {
     message: "Message",
     sendMessage: "Send Message",
     sending: "Sending...",
-    contactDescription: "We'll respond within 24 hours."
+    responseMessage: "We'll respond within 24 hours."
   },
   de: {
     contactTitle: "Kontakt aufnehmen",
@@ -28,6 +28,6 @@ export const contactTranslations = {
     message: "Nachricht",
     sendMessage: "Nachricht senden",
     sending: "Wird gesendet...",
-    contactDescription: "Wir antworten innerhalb von 24 Stunden."
+    responseMessage: "Wir antworten innerhalb von 24 Stunden."
   }
 };

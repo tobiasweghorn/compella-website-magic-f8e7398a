@@ -24,15 +24,15 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <ServicesSection />
-      <FoundationSection />
-      <JourneySection />
       <div className="section-padding light-section">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8 text-compella-gray">{t.testimonialsTitle}</h2>
           <TestimonialSlider />
         </div>
       </div>
+      <JourneySection />
       <TeamSection />
+      <FoundationSection />
       <FAQSection />
       <ContactSection />
       <Footer />
@@ -41,4 +41,3 @@ const Index = () => {
 };
 
 export default Index;
-

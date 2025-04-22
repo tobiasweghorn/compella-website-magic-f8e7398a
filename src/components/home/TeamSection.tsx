@@ -25,14 +25,14 @@ const TeamSection = () => {
             linkedInUrl="https://www.linkedin.com/in/marcel-h%C3%A4bold-aa1326153/"
           />
           <TeamMember 
-            name="Tobias Weghorn"
+            name="Maximilian Friedle"
             position={t.teamPosition2}
             bio={t.teamBio2}
             imageUrl="/lovable-uploads/2585bb13-a24c-4419-a6e3-22cbd53d4d1e.png"
             linkedInUrl="https://www.linkedin.com/in/maximilianfriedle/"
           />
           <TeamMember 
-            name="Maximilian Friedle"
+            name="Tobias Weghorn"
             position={t.teamPosition3}
             bio={t.teamBio3}
             imageUrl="/lovable-uploads/bc158a9b-d5e3-456e-bbaa-e6c03f63b8e5.png"

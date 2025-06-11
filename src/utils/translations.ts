@@ -115,7 +115,7 @@ export const translations = {
     
     // Contact Section
     contactTitle: "Talk to us",
-    contactDescription: "Send us an email at marcel.haebold@compella.org, give us a call at +49 176 32751679, or book an appointment with us here.",
+    contactDescription: "If you're curious to get to know us and discuss your current leadership or HR challenges, why not have a chat with our Senior Consultant Marcel?\n\nSend an Email to marcel.haebold@compella.org, book an appointment with Marcel in the Calendar below or try your luck on +49 176 32751679.",
     
     // Form Fields
     fullName: "Full Name",
@@ -272,7 +272,7 @@ export const translations = {
     
     // Contact Section
     contactTitle: "Lass uns sprechen",
-    contactDescription: "Send uns eine Email zu marcel.haebold@compella.org, klingel durch unter +49 176 32751679 oder buch uns hier einen Termin.",
+    contactDescription: "Wenn du neugierig bist, uns kennenzulernen und über deine aktuellen Herausforderungen in Leadership oder HR zu sprechen, dann vereinbare doch ein Gespräch mit unserem Senior Consultant Marcel.\n\nSchreib einfach eine E-Mail an marcel.haebold@compella.org, buch dir einen Termin im Kalender unten – oder versuch dein Glück telefonisch unter +49 176 32751679.",
     
     // Form Fields
     fullName: "Vollständiger Name",

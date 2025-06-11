@@ -1,10 +1,11 @@
+
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
 import TestimonialSlider from '@/components/TestimonialSlider';
 import ProcessStep from '@/components/ProcessStep';
 import Accordion from '@/components/Accordion';
-import ContactForm from '@/components/ContactForm';
+import CalendlyWidget from '@/components/CalendlyWidget';
 import Footer from '@/components/home/Footer';
 import { CheckCircle, Target, FileBarChart, BarChart3 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -158,8 +159,8 @@ const LeadershipAssessment = () => {
             <p className="text-gray-600 max-w-xl mx-auto">{t.contactDescription}</p>
           </div>
           
-          <div className="max-w-md mx-auto">
-            <ContactForm />
+          <div className="max-w-4xl mx-auto">
+            <CalendlyWidget />
           </div>
         </div>
       </section>

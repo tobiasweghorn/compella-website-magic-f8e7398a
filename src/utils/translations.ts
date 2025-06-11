@@ -1,4 +1,3 @@
-
 export const translations = {
   en: {
     // Navbar
@@ -115,8 +114,8 @@ export const translations = {
     teamBio4: "Susi embodies care and quality, ensuring clients are well taken care of from first contact to follow-up thanks to years of sales experience.",
     
     // Contact Section
-    contactTitle: "Get in touch",
-    contactDescription: "Behind this form is a real person looking forward to a free initial consultation and needs analysis with you. Just drop us a message.",
+    contactTitle: "Talk to us",
+    contactDescription: "Send us an email at marcel.haebold@compella.org, give us a call at +49 176 32751679, or book an appointment with us here.",
     
     // Form Fields
     fullName: "Full Name",
@@ -272,8 +271,8 @@ export const translations = {
     teamBio4: "Susi lebt Fürsorge und Qualität und stellt dank jahrelanger Vertriebserfahrung sicher, dass Kunden von Erstkontakt bis Nachbereitung bestens aufgehoben sind.",
     
     // Contact Section
-    contactTitle: "Kontakt aufnehmen",
-    contactDescription: "Hinter diesem Formular wartet ein Mensch und freut sich auf ein kostenfreies Kennenlernen und Bedarfsanalyse mit dir. Schreib uns einfach.",
+    contactTitle: "Lass uns sprechen",
+    contactDescription: "Send uns eine Email zu marcel.haebold@compella.org, klingel durch unter +49 176 32751679 oder buch uns hier einen Termin.",
     
     // Form Fields
     fullName: "Vollständiger Name",
@@ -284,7 +283,7 @@ export const translations = {
     message: "Nachricht",
     sendMessage: "Nachricht senden",
     sending: "Wird gesendet...",
-    responseMessage: "Wir antworten innerhalb von 24 Stunden.", // Renamed from duplicate contactDescription
+    responseMessage: "Wir antworten innerhalb von 24 Stunden.",
 
     // FAQ Section
     faqTitle: "Häufig gestellte Fragen",

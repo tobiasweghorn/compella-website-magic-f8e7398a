@@ -1,9 +1,10 @@
+
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import FeatureCard from '@/components/FeatureCard';
 import ProcessStep from '@/components/ProcessStep';
 import Accordion from '@/components/Accordion';
-import ContactForm from '@/components/ContactForm';
+import CalendlyWidget from '@/components/CalendlyWidget';
 import Footer from '@/components/home/Footer';
 import { Users, Activity, LineChart, RefreshCw, Lightbulb, Target } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -152,8 +153,8 @@ const LeadershipDevelopment = () => {
             <p className="text-gray-600 max-w-xl mx-auto">{t.contactDescription}</p>
           </div>
           
-          <div className="max-w-md mx-auto">
-            <ContactForm />
+          <div className="max-w-4xl mx-auto">
+            <CalendlyWidget />
           </div>
         </div>
       </section>

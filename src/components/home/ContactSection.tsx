@@ -2,7 +2,7 @@
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { translations } from '@/utils/translations';
-import ContactForm from '@/components/ContactForm';
+import CalendlyWidget from '@/components/CalendlyWidget';
 
 const ContactSection = () => {
   const { language } = useLanguage();
@@ -16,8 +16,8 @@ const ContactSection = () => {
           <p className="text-gray-600 max-w-xl mx-auto">{t.contactDescription}</p>
         </div>
         
-        <div className="max-w-md mx-auto">
-          <ContactForm />
+        <div className="max-w-4xl mx-auto">
+          <CalendlyWidget />
         </div>
       </div>
     </section>

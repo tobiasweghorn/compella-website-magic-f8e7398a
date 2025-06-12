@@ -26,5 +26,11 @@
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if (location.hostname === "www.compella.org") {
+        location.href = location.href.replace("www.compella.org", "compella.org");
+      }
+</script>
+
   </body>
 </html>
